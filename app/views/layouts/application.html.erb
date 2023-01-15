@@ -36,8 +36,10 @@
         </ul>
       </nav>
       <% if current_page?(photos_index_path) %>
-        <div class="photo-controls">
-          PREV / NEXT
+        <div class='photo-controls'>
+          <a onclick='plusSlides(-1)'>PREV</a>
+          <div>/</div>
+          <a onclick='plusSlides(1)'>NEXT</a>
         </div>
       <% end %>
     </div>

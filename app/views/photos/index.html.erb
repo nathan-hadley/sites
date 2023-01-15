@@ -3,9 +3,11 @@
   <%= stylesheet_link_tag "photos", "data-turbo-track": "reload" %>
 </head>
 
-<div class="photo-carousel">
+<div class="slideshow-container">
   <% @photos.each do |photo| %>
-    <%= image_tag photo %>
+    <div class="slide fade">
+      <%= image_tag photo %>
+    </div>
   <% end %>
 </div>
 
