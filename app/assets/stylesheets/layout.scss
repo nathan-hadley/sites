@@ -1,3 +1,4 @@
+// default styling for the whole site + sidebar
 body {
     margin: 50px;
     color: #303030;
@@ -6,7 +7,6 @@ body {
     grid-template-columns: 200px 1fr;
     font-family: 'Proxima Nova', serif;
 
-    // default link styling
     a, a:link {
         text-decoration: none;
         cursor: pointer;
@@ -15,14 +15,14 @@ body {
 
     .sidebar {
         h1 {
-            font-family: 'Futura PT', serif;
+            font-family: 'Jost', serif;
             font-weight: 700;
-            font-size: 36px;
+            font-size: 32px;
             color: #FFFFFF;
             margin-top: 0;
             margin-bottom: 0;
-            letter-spacing: 6px;
-            line-height: 1em;
+            letter-spacing: 8px;
+            line-height: 40px;
         }
 
         nav ul {
@@ -39,16 +39,23 @@ body {
         }
 
         .primary-list { font-size: 18px; }
-        .secondary-list { font-size: 14px; }
+        .secondary-list { font-size: 15px; }
+
+        .photo-controls {
+            position: absolute;
+            bottom: 0;
+        }
     }
 
     .main-content {
+        max-width: 950px;
         h2 {
             margin: 0;
             padding: 17px;
         }
 
         h3 {
+            font-size: 18px;
             margin: 20px 0;
             line-height: 1.2em;
             font-weight: bold;
@@ -61,6 +68,7 @@ body {
         }
 
         p {
+            font-size: 15px;
             line-height: 1.6em;
         }
 
