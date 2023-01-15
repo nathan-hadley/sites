@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Nh</title>
+    <title>NH</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "layout", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
-    <%= yield %>
+    <div class="sidebar">
+      <h1>NATHAN HADLEY</h1>
+      <nav>
+        <ul>
+          <li><%= link_to 'stories', stories_index_path %></li>
+          <li><%= link_to 'about', about_index_path %></li>
+          <li><%= link_to 'photos', photos_index_path %></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main-content">
+      <%= yield %>
+    </div>
   </body>
 </html>
