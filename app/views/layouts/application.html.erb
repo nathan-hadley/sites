@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>NH</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Nathan Hadley</title>
+    <meta name='viewport' content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= stylesheet_link_tag "layout", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+
+    <link href='https://fonts.googleapis.com/css2?family=Futura+PT:wght@400;700;900&display=swap' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css2?family=Proxima+Nova:ital,wght@0,400;0,700;1,400;1,700&display=swap' rel='stylesheet'>
   </head>
 
   <body>
-    <div class="sidebar">
-      <h1>NATHAN HADLEY</h1>
+    <div class='sidebar'>
+      <h1>nathan hadley</h1>
       <nav>
-        <ul>
-          <li><%= link_to 'stories', stories_index_path %></li>
-          <li><%= link_to 'about', about_index_path %></li>
-          <li><%= link_to 'photos', photos_index_path %></li>
+        <ul class='primary-list'>
+          <li>
+            <%= link_to 'stories', stories_index_path,
+            class: ('active' if current_page?(stories_index_path)) %>
+          </li>
+          <li>
+            <%= link_to 'photos', photos_index_path,
+            class: ('active' if current_page?(photos_index_path)) %>
+          </li>
+        </ul>
+        <ul class='secondary-list'>
+          <li>
+            <%= link_to 'about', about_index_path,
+            class: ('active' if current_page?(about_index_path)) %>
+          </li>
         </ul>
       </nav>
     </div>
-    <div class="main-content">
+    <div class='main-content'>
       <%= yield %>
     </div>
   </body>

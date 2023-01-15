@@ -1,0 +1,15 @@
+.about-photo {
+  width: 50%;
+  grid-column: 1 / 2;
+  float: left;
+  padding: 17px;
+  margin-right: 17px;
+  box-sizing: border-box;
+  img {
+    width: 100%;
+  }
+}
+.about-content {
+  grid-column: 2 / 3;
+  padding: 17px;
+}
