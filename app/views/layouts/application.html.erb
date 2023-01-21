@@ -18,7 +18,7 @@
     <div class='sidebar'>
       <h1>nathan hadley</h1>
       <nav>
-        <ul class='primary-list'>
+        <ul>
           <li>
             <%= link_to 'stories', stories_index_path,
             class: ('active' if current_page?(stories_index_path)) %>
@@ -27,23 +27,14 @@
             <%= link_to 'photos', photos_index_path,
             class: ('active' if current_page?(photos_index_path)) %>
           </li>
-        </ul>
-        <ul class='secondary-list'>
-          <li>
+          <li class="secondary-item">
             <%= link_to 'about', about_index_path,
             class: ('active' if current_page?(about_index_path)) %>
           </li>
         </ul>
       </nav>
-      <% if current_page?(photos_index_path) %>
-        <div class='photo-controls'>
-          <a onclick='plusSlides(-1)'>PREV</a>
-          <div>/</div>
-          <a onclick='plusSlides(1)'>NEXT</a>
-        </div>
-      <% end %>
     </div>
-    <div class='main-content'>
+    <div class="main-content fade">
       <%= yield %>
     </div>
   </body>

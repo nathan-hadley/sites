@@ -3,11 +3,19 @@
   <%= stylesheet_link_tag "photos", "data-turbo-track": "reload" %>
 </head>
 
-<div class="slideshow-container">
-  <% @photos.each do |photo| %>
-    <div class="slide fade">
-      <%= image_tag photo %>
-    </div>
+<div data-controller="slideshow" class="slideshow-container">
+  <% @photos.each do |filename| %>
+    <img
+      data-slideshow-target="photo"
+      src="<%= asset_path("photos/#{filename}") %>"
+      alt=<%=filename%>
+      class="d-none"
+    >
   <% end %>
+  <div class='photo-controls'>
+    <a data-slideshow-target="prev" data-action="click->slideshow#prev">PREV</a>
+    <div>/</div>
+    <a data-slideshow-target="next" data-action="click->slideshow#next">NEXT</a>
+  </div>
 </div>
 
