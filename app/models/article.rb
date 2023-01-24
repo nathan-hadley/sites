@@ -1,5 +1,5 @@
 class Article < ApplicationRecord
-  attr_accessor :created_at
+  default_scope { order(publish_date: :desc) }
 
-  validates :title, :header_image_html, :content_html, presence: true
+  validates :header_image_html, :title, :publish_date, :content_html, presence: true
 end

@@ -19,23 +19,20 @@ task scrape_blog: :environment do
 
       # Find the header image and caption
       special_content = article.css("div.special-content")
-      special_content.css("img, div.image-caption").each do |element|
-        if element.name == "img"
-          img_url = element["src"]
-          next if img_url.nil?
+      img = special_content.css("img")
+      img_url = img.first["src"]
+      next if img_url.nil?
 
-          #download_image(img_url)
-          header_image += "<img src='/assets/#{File.basename(img_url)}' alt='#{File.basename(img_url)}'/>"
-        else
-          # Remove the div element
-          caption = element.at_css("p").text
-          header_image += "<p class='image-caption'>#{caption}</p>"
-        end
-      end
+      # download_image(img_url)
+      header_image += "<figure class='header-img'>"
+      header_image += "<img src='/assets/#{File.basename(img_url)}' alt='#{File.basename(img_url)}'/>"
+      caption = special_content.css('div.image-caption').css("p").text
+      header_image += "<p>#{caption}</p>" if caption.present?
+      header_image += "</figure>"
 
-      # Get the title and created_at date
+      # Get the title and publish date
       title = article.css("h1").text.strip
-      created_at = article.css("time")[0]["datetime"].strip
+      publish_date = article.css("time")[0]["datetime"].strip.to_datetime
 
       # Just look at article body for everything else
       body = article.css("div.body")
@@ -43,47 +40,38 @@ task scrape_blog: :environment do
       # Initialize the content as an empty string
       content = ""
 
-      # Initialize image captions to prevent adding duplicates
-      image_caption_text = ""
-
       # Loop through the main elements of the article (p, a, img tags)
-      body.css("p, br, img, div.image-caption").each do |element|
+      body.css("p, h2, h3, h4, h5, br, figure").each do |element|
         # If the element is an image, download it and replace the src with the local file path
         case element.name
-        when "img"
-          img_url = element["src"]
+        when "figure"
+          img = element.css("img")
+          img_url = img.first["src"]
           next if img_url.nil?
 
           # download_image(img_url)
-
+          caption = element.css("div.image-caption").css("p").text
           img_size = FastImage.size(img_url)
-          if img_size[0] > img_size[1] # width > height
-            content += "<img src='/assets/#{File.basename(img_url)}' alt='#{File.basename(img_url)}'/>"
-          else
-            content += "<img class='vertical', src='/assets/#{File.basename(img_url)}' alt='#{File.basename(img_url)}'/>"
-          end
-        when "div"
-          if element["class"] == "image-caption"
-            # Get the text of the caption
-            image_caption_text = element.css("p").text
-            content += "<p class='image-caption'>#{image_caption_text}</p>"
-          end
-        when "br"
-          content += clean_html(element.to_html)
+          # width > height
+          content += img_size[0] > img_size[1] ? "<figure>" : "<figure class='vertical'>"
+          content += "<img src='/assets/#{File.basename(img_url)}' alt='#{File.basename(img_url)}'/>"
+          content += "<p>#{caption}</p>" if caption.present?
+          content += "</figure>"
         else
           # Add the element to the content as HTML
-          content += clean_html(element.to_html) unless element.text.include?(image_caption_text)
+          content += clean_html(element.to_html) unless element.ancestors("div.image-caption").any?
         end
       end
 
       article = Article.find_by(title: title)
       if article.present?
         article.update(title: title, header_image_html: header_image,
-                       content_html: content, created_at: created_at)
+                       content_html: content, publish_date: publish_date)
       else
         Article.create(title: title, header_image_html: header_image,
-                       content_html: content, created_at: created_at)
+                       content_html: content, publish_date: publish_date)
       end
+      puts "scraped #{title}"
     end
 
     # Check for the next page link

@@ -1,6 +1,21 @@
-<% @articles.each do |article| %>
-  <%= raw article.header_image_html %>
-  <h1><%= article.title %></h1>
-  <h4><%= article.created_at %></h4>
-  <%= raw article.content_html %>
-<% end %>
+<head>
+  <title>Stories</title>
+  <%= stylesheet_link_tag "stories", "data-turbo-track": "reload" %>
+</head>
+
+<div class="stories-container">
+  <div class="articles-container">
+    <% @articles.each do |article| %>
+      <%= raw article.header_image_html %>
+      <h1><%= article.title %></h1>
+      <time><%= article.publish_date.to_date %></time>
+      <%= raw article.content_html %>
+      <hr class="solid">
+    <% end %>
+  </div>
+  <div class="index">
+    <% @articles.each do |article| %>
+      <p><%= article.title %></p>
+    <% end %>
+  </div>
+</div>
