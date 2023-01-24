@@ -1,1 +1,6 @@
-
+<% @articles.each do |article| %>
+  <%= raw article.header_image_html %>
+  <h1><%= article.title %></h1>
+  <h4><%= article.created_at %></h4>
+  <%= raw article.content_html %>
+<% end %>

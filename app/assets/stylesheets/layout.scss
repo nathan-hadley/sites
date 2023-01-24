@@ -83,6 +83,14 @@ body {
       padding-left: 40px;
       li { margin: 7.5px 0; }
     }
+    img {
+      max-width: 100%;
+      margin-right: 17px;
+    }
+    .vertical {
+      max-width: 50%;
+      float: left;
+    }
   }
 }
 
