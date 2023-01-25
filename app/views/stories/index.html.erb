@@ -8,7 +8,7 @@
     <% @articles.each do |article| %>
       <%= raw article.header_image_html %>
       <h1><%= article.title %></h1>
-      <time><%= article.publish_date.to_date %></time>
+      <time><%= article.publish_date.strftime("%B %d, %Y") %></time>
       <%= raw article.content_html %>
       <hr class="solid">
     <% end %>

@@ -9,6 +9,7 @@ body {
   font-family: 'Proxima Nova', serif;
 
   a, a:link {
+    color: #484848;
     text-decoration: none;
     cursor: pointer;
   }
@@ -47,7 +48,7 @@ body {
         a {
           color: #707070;
         }
-        .active { color: #000; }
+        a:hover, .active { color: #000; }
       }
         .secondary-item {
           font-size: 15px;

@@ -6,8 +6,19 @@
     .header-img {
       margin-top: 0;
     }
+    h1 {
+      margin-bottom: 10px;
+    }
     time {
       color: #919191;
+    }
+    p {
+      text-align: justify;
+    }
+    h3 {
+      margin-top: 32px;
+      font-weight: 600;
+      font-size: 16px;
     }
     figure {
       margin: 32px 0;
@@ -16,9 +27,10 @@
       }
       p {
         font-size: 12px;
+        text-align: left;
       }
     }
-    .vertical {
+    .left {
       margin: 6px 32px 0 0;
       max-width: 50%;
       float: left;
