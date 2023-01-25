@@ -1,13 +1,11 @@
 <head>
-  <title>Stories</title>
+  <title><%= @article.title %></title>
   <%= stylesheet_link_tag "stories", "data-turbo-track": "reload" %>
 </head>
 
 <div class="stories-container">
   <div class="articles-container">
-    <% @articles.each do |article| %>
-      <%= render 'article', article: article %>
-    <% end %>
+    <%= render 'article', article: @article %>
   </div>
   <%= render 'archive' %>
 </div>

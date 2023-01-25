@@ -65,6 +65,8 @@ group :development do
 
   gem "net-http"
 
+  gem 'pry'
+
   gem 'fastimage'
 
   gem 'rubocop'

@@ -20,12 +20,12 @@
       <nav>
         <ul>
           <li>
-            <%= link_to 'stories', stories_index_path,
-            class: ('active' if current_page?(stories_index_path)) %>
+            <%= link_to 'stories', stories_path,
+            class: ('active' if current_page?(stories_path)) %>
           </li>
           <li>
-            <%= link_to 'photos', photos_index_path,
-            class: ('active' if current_page?(photos_index_path)) %>
+            <%= link_to 'photos', photos_path,
+            class: ('active' if current_page?(photos_path)) %>
           </li>
           <li class="secondary-item">
             <%= link_to 'about', about_index_path,

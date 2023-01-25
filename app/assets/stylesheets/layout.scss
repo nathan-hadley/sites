@@ -9,6 +9,7 @@ body {
   font-family: 'Proxima Nova', serif;
 
   a, a:link {
+    font-weight: bold;
     color: #484848;
     text-decoration: none;
     cursor: pointer;
@@ -29,7 +30,7 @@ body {
   .sidebar {
     h1 {
       font-family: 'Jost', serif;
-      font-weight: 700;
+      font-weight: bold;
       font-size: 32px;
       color: #FFFFFF;
       margin-top: 0;

@@ -38,8 +38,15 @@
     hr {
       margin: 50px 0;
     }
+    hr.sm {
+      text-align: center;
+      margin: 32px auto;
+    }
   }
   .index {
     margin-left: 16px;
+    h2 {
+      padding: 0;
+    }
   }
 }

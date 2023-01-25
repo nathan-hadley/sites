@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_01_24_051013) do
+ActiveRecord::Schema[7.0].define(version: 2023_01_25_154139) do
   create_table "articles", force: :cascade do |t|
     t.string "title"
     t.string "header_image_html"
@@ -18,6 +18,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_24_051013) do
     t.datetime "publish_date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "slug"
     t.index ["publish_date"], name: "index_articles_on_publish_date"
     t.index ["title"], name: "index_articles_on_title"
   end

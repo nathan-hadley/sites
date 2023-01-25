@@ -5,7 +5,8 @@ require "fastimage"
 # Execute bundle exec rake scrape_blog
 task scrape_blog: :environment do
   # Scrape the blog page
-  url = "https://nathanhadley.com/"
+  url = "https://nathanhadley.com/stories/2017/5/15/winter-climbing"
+  @num = 1
 
   loop do
     doc = Nokogiri::HTML(URI.open(url))
@@ -23,9 +24,9 @@ task scrape_blog: :environment do
       img_url = img.first["src"]
       next if img_url.nil?
 
-      # download_image(img_url)
+      download_image(img_url)
       header_image += "<figure class='header-img'>"
-      header_image += "<img src='/assets/#{File.basename(img_url)}' alt='#{File.basename(img_url)}'/>"
+      header_image += "<img src='/assets/#{File.basename(img_url).gsub(".jpeg", "-#{@num}.jpeg")}' alt='#{File.basename(img_url).gsub(".jpeg", "-#{@num}.jpeg")}'/>"
       caption = special_content.css('div.image-caption').css("p").text
       header_image += "<p>#{caption}</p>" if caption.present?
       header_image += "</figure>"
@@ -49,12 +50,12 @@ task scrape_blog: :environment do
           img_url = img.first["src"]
           next if img_url.nil?
 
-          # download_image(img_url)
+          download_image(img_url)
           caption = element.css("div.image-caption").css("p").text
           img_size = FastImage.size(img_url)
           # width > height
           content += img_size[0] > img_size[1] ? "<figure>" : "<figure class='left'>"
-          content += "<img src='/assets/#{File.basename(img_url)}' alt='#{File.basename(img_url)}'/>"
+          content += "<img src='/assets/#{File.basename(img_url).gsub(".jpeg", "-#{@num}.jpeg")}' alt='#{File.basename(img_url).gsub(".jpeg", "-#{@num}.jpeg")}'/>"
           content += "<p>#{caption}</p>" if caption.present?
           content += "</figure>"
         else
@@ -88,9 +89,10 @@ end
 def download_image(img_url)
   image_path = "app/assets/images/"
   img_data = URI.open(img_url).read
-  File.open("#{image_path}#{File.basename(img_url)}", "wb") do |f|
+  File.open("#{image_path}#{File.basename(img_url).gsub(".jpeg", "-#{@num}.jpeg")}", "wb") do |f|
     f.write(img_data)
   end
+  @num += 1
 end
 
 def clean_html(html_string)

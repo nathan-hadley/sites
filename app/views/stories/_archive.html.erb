@@ -1,0 +1,8 @@
+<div class="index">
+  <h2>Archive</h2>
+  <% @articles.each do |article| %>
+    <a href="/stories/<%= article.slug %>">
+      <p><%= article.title %></p>
+    </a>
+  <% end %>
+</div>
