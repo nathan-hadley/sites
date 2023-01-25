@@ -5,7 +5,7 @@ require "fastimage"
 # Execute bundle exec rake scrape_blog
 task scrape_blog: :environment do
   # Scrape the blog page
-  url = "https://nathanhadley.com/stories/2017/5/15/winter-climbing"
+  url = ""
   @num = 1
 
   loop do
@@ -22,11 +22,11 @@ task scrape_blog: :environment do
       special_content = article.css("div.special-content")
       img = special_content.css("img")
       img_url = img.first["src"]
-      next if img_url.nil?
 
       download_image(img_url)
       header_image += "<figure class='header-img'>"
       header_image += "<img src='/assets/#{File.basename(img_url).gsub(".jpeg", "-#{@num}.jpeg")}' alt='#{File.basename(img_url).gsub(".jpeg", "-#{@num}.jpeg")}'/>"
+      @num += 1
       caption = special_content.css('div.image-caption').css("p").text
       header_image += "<p>#{caption}</p>" if caption.present?
       header_image += "</figure>"
@@ -56,6 +56,7 @@ task scrape_blog: :environment do
           # width > height
           content += img_size[0] > img_size[1] ? "<figure>" : "<figure class='left'>"
           content += "<img src='/assets/#{File.basename(img_url).gsub(".jpeg", "-#{@num}.jpeg")}' alt='#{File.basename(img_url).gsub(".jpeg", "-#{@num}.jpeg")}'/>"
+          @num += 1
           content += "<p>#{caption}</p>" if caption.present?
           content += "</figure>"
         else
@@ -92,7 +93,6 @@ def download_image(img_url)
   File.open("#{image_path}#{File.basename(img_url).gsub(".jpeg", "-#{@num}.jpeg")}", "wb") do |f|
     f.write(img_data)
   end
-  @num += 1
 end
 
 def clean_html(html_string)

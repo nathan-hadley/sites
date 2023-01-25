@@ -5,9 +5,13 @@
 
 <div class="stories-container">
   <div class="articles-container">
-    <% @articles.each do |article| %>
+    <% @articles_on_page.each do |article| %>
       <%= render 'article', article: article %>
+      <% if @articles_on_page.last != article %>
+        <hr>
+      <% end %>
     <% end %>
+    <%= paginate @articles_on_page %>
   </div>
   <%= render 'archive' %>
 </div>

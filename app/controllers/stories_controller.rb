@@ -1,7 +1,9 @@
 class StoriesController < ApplicationController
   before_action :set_articles
 
-  def index; end
+  def index
+    @articles_on_page = Article.page(params[:page])
+  end
 
   def show
     @article = Article.find_by(slug: params[:slug])
