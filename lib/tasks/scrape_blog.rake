@@ -1,6 +1,5 @@
 require "open-uri"
 require "nokogiri"
-require "fastimage"
 
 # Execute bundle exec rake scrape_blog
 task scrape_blog: :environment do
@@ -52,10 +51,7 @@ task scrape_blog: :environment do
 
           download_image(img_url)
           caption = element.css("div.image-caption").css("p").text
-          img_size = FastImage.size(img_url)
-          # width > height
-          content += img_size[0] > img_size[1] ? "<figure>" : "<figure class='left'>"
-          content += "<img src='/assets/#{File.basename(img_url).gsub(".jpeg", "-#{@num}.jpeg")}' alt='#{File.basename(img_url).gsub(".jpeg", "-#{@num}.jpeg")}'/>"
+          content += "<figure><img src='/assets/#{File.basename(img_url).gsub(".jpeg", "-#{@num}.jpeg")}' alt='#{File.basename(img_url).gsub(".jpeg", "-#{@num}.jpeg")}'/>"
           @num += 1
           content += "<p>#{caption}</p>" if caption.present?
           content += "</figure>"
