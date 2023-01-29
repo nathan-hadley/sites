@@ -29,7 +29,7 @@
             <%= link_to 'stories', stories_path,
             class: ('active' if current_page?(stories_path)) %>
           </li>
-          <li class="mobile-only <%= 'show-archive' if request.path.starts_with?('/stories') %>">
+          <li class="mobile-only <%= 'show-archive' if current_page?(root_path) || request.path.starts_with?('/stories') %>">
             <a href="#" data-controller="archive" data-action="click->archive#scroll">archive</a>
           </li>
           <li>
