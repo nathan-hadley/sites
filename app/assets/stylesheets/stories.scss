@@ -10,7 +10,7 @@
       margin-bottom: 10px;
     }
     time {
-      color: #919191;
+      color: var(--color-date);
     }
     p {
       text-align: justify;
@@ -54,6 +54,9 @@
 @media (max-width: 768px) {
   .stories-container {
     grid-template-columns: 1fr;
+    .articles-container {
+      margin-right: 0;
+    }
     .archive {
       margin-left: 0;
       h2 {

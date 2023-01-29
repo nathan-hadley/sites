@@ -1,20 +1,19 @@
-
 body {
   // default styling for the whole site + sidebar
   margin: 50px;
-  color: #303030;
-  background-color: #ebebeb;
+  color: var(--color-font);
+  background-color: var(--color-background);
   display: grid;
   grid-template-columns: 200px 1fr;
   font-family: 'Proxima Nova', serif;
 
   a, a:link {
     font-weight: bold;
-    color: #484848;
+    color: var(--color-link);
     text-decoration: none;
     cursor: pointer;
   }
-  a:hover { color: #000; }
+  a:hover { color: var(--color-black); }
 
   .fade {
     animation-name: fade;
@@ -32,7 +31,7 @@ body {
       font-family: 'Jost', serif;
       font-weight: bold;
       font-size: 32px;
-      color: #FFFFFF;
+      color: var(--color-white);
       margin-top: 0;
       margin-bottom: 0;
       letter-spacing: 8px;
@@ -47,16 +46,13 @@ body {
         font-size: 18px;
         line-height: 2em;
         a {
-          color: #707070;
+          color: var(--color-nav-link);
         }
-        a:hover, .active { color: #000; }
+        a:hover, .active { color: var(--color-black); }
       }
-        .secondary-item {
-          font-size: 15px;
-          margin-top: 12px;
-        }
-      }
+      .mobile-only { display: none }
     }
+  }
 
   .main-content {
     max-width: 900px;
@@ -92,10 +88,24 @@ body {
   body {
     grid-template-columns: 1fr;
     .sidebar {
-      text-align: center;
-      ul {
-        margin-top: 6px;
-        .secondary-item { margin-top: 4px !important; }
+      h1 {
+        display: none;
+      }
+      nav {
+        width: 100%;
+        padding: 8px 0;
+        z-index: 1;
+        background-color: var(--color-background);
+        position: fixed;
+        top: 0;
+        ul {
+          margin: 0;
+          li {
+            display: inline-block;
+            margin-right: 56px;
+          }
+          .show-archive { display: inline-block; }
+        }
       }
     }
   }

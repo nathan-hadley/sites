@@ -10,8 +10,14 @@
     <%= stylesheet_link_tag "layout", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
 
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700;900&display=swap" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css2?family=Proxima+Nova:ital,wght@0,400;0,700;1,400;1,700&display=swap' rel='stylesheet'>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700;900&display=swap"
+      as="style" rel="stylesheet preload prefetch"
+    >
+    <link
+      href='https://fonts.googleapis.com/css2?family=Proxima+Nova:ital,wght@0,400;0,700;1,400;1,700&display=swap'
+      as="style" rel='stylesheet preload prefetch'
+    >
   </head>
 
   <body>
@@ -23,11 +29,14 @@
             <%= link_to 'stories', stories_path,
             class: ('active' if current_page?(stories_path)) %>
           </li>
+          <li class="mobile-only <%= 'show-archive' if request.path.starts_with?('/stories') %>">
+            <a href="#" data-controller="archive" data-action="click->archive#scroll">archive</a>
+          </li>
           <li>
             <%= link_to 'photos', photos_path,
             class: ('active' if current_page?(photos_path)) %>
           </li>
-          <li class="secondary-item">
+          <li>
             <%= link_to 'about', about_index_path,
             class: ('active' if current_page?(about_index_path)) %>
           </li>
