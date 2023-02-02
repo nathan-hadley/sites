@@ -84,6 +84,7 @@ body {
   }
 }
 
+// tablet and down
 @media (max-width: 768px) {
   body {
     grid-template-columns: 1fr;
@@ -99,14 +100,26 @@ body {
         position: fixed;
         top: 0;
         ul {
-          margin: 0;
+          // need twice margin of body to center nav
+          margin: 0 100px 0 0;
+          display: flex;
+          justify-content: space-between;
           li {
             display: inline-block;
-            margin-right: 15px;
           }
           .show-archive { display: inline-block; }
         }
       }
+    }
+  }
+}
+
+// small phones
+@media (max-width: 375px) {
+  body {
+    margin: 50px 20px;
+    nav ul {
+      margin: 0 40px 0 0 !important;
     }
   }
 }
