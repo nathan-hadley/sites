@@ -5,6 +5,9 @@ Rails.application.routes.draw do
     get '/page/:page', action: :index, on: :collection
   end
 
+  # redirect old urls with a date before the slug to new urls without the date
+  get '/stories/*all/:story_slug', to: redirect('stories/%{story_slug}')
+
   resources 'photos', only: :index
   resources 'about', only: :index
 end
