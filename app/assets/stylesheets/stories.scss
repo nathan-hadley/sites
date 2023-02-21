@@ -51,7 +51,20 @@
   }
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 1024px) {
+  .stories-container {
+    .articles-container {
+      .left {
+        margin: 32px 0;
+        max-width: 100%;
+        float: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
   .stories-container {
     grid-template-columns: 1fr;
     .articles-container {
@@ -65,3 +78,4 @@
     }
   }
 }
+

@@ -6,7 +6,7 @@
   img { width: 100%; }
 }
 
-@media (max-width: var(--media-width)) {
+@media (max-width: 768px) {
   .about-photo {
     grid-column: 1 / 3;
     width: 100%;
