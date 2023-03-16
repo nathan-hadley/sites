@@ -10,4 +10,5 @@ Rails.application.routes.draw do
 
   resources 'photos', only: :index
   resources 'about', only: :index
+  resources 'snowfall', only: :index
 end
