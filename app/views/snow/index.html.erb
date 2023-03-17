@@ -1,9 +1,10 @@
 <head>
   <title>Snowfall</title>
-  <%= stylesheet_link_tag "snowfall", "data-turbo-track": "reload" %>
+  <%= stylesheet_link_tag "snow", "data-turbo-track": "reload" %>
 </head>
 
-<div class="snowfall-page">
+<div class="snow-page">
+  <h1>Washington Snow Forecasts</h1>
   <% @locations.each do |location| %>
     <%= render 'location', location: location %>
   <% end %>

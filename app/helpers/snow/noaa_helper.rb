@@ -1,11 +1,11 @@
 require 'net/http'
 require 'json'
 
-module SnowfallHelper
+module Snow::NoaaHelper
   USER_AGENT = "nathanhadley"
 
   # lat and lon cannot have more than 4 decimal points
-  def self.noaa_snowfall(lat, lon)
+  def self.forecast(lat, lon)
     url = URI("https://api.weather.gov/points/#{lat},#{lon}")
     request = Net::HTTP::Get.new(url)
     request["User-Agent"] = USER_AGENT
@@ -40,7 +40,9 @@ module SnowfallHelper
       when /New snow accumulation of (\d+) to (\d+) inches possible./
         snowfall["detail"][day_of_week][day_or_night]["min"] = $1.to_i
         snowfall["detail"][day_of_week][day_or_night]["max"] = $2.to_i
-        snowfall["detail"][day_of_week][day_or_night]["avg"] = (($1.to_i + $2.to_i) / 2.0).round(1)
+        rounded_avg = (($1.to_i + $2.to_i) / 2.0).round(1)
+        rounded_avg = rounded_avg.to_i if rounded_avg == rounded_avg.to_i
+        snowfall["detail"][day_of_week][day_or_night]["avg"] = rounded_avg
       when /New snow accumulation of around one inch possible/
         snowfall["detail"][day_of_week][day_or_night]["avg"] =
           snowfall["detail"][day_of_week][day_or_night]["max"] =

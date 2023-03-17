@@ -24,12 +24,13 @@
     <div class='sidebar'>
       <h1>nathan hadley</h1>
       <nav>
+        <a href="#" class="menu">menu</a>
         <ul>
           <li>
             <%= link_to 'stories', stories_path,
             class: ('active' if current_page?(stories_path)) %>
           </li>
-          <li class="mobile-only <%= 'show-archive' if current_page?(root_path) || request.path.starts_with?('/stories') %>">
+          <li class="mobile-only <%= 'archive' if current_page?(root_path) || request.path.starts_with?('/stories') %>">
             <a href="#" data-controller="archive" data-action="click->archive#scroll">archive</a>
           </li>
           <li>
@@ -39,6 +40,10 @@
           <li>
             <%= link_to 'about', about_index_path,
             class: ('active' if current_page?(about_index_path)) %>
+          </li>
+          <li>
+            <%= link_to 'snow', snow_index_path,
+            class: ('active' if current_page?(snow_index_path)) %>
           </li>
         </ul>
       </nav>

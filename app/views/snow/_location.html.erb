@@ -1,7 +1,8 @@
 <h3><%= location[:name] %></h3>
-<p>Weekly total: <%= location[:data]["min_snow_total"] %>-<%= location[:data]["max_snow_total"] %> inches</p>
-<table>
-  <thead>
+<p>Week total: <%= location[:data]["min_snow_total"] %> inches</p>
+<div class="table-container">
+  <table>
+    <thead>
     <tr>
       <% location[:data]["detail"].keys.each do |day| %>
         <th colspan="2"><%= day %></th>
@@ -13,13 +14,14 @@
         <th>Night</th>
       <% end %>
     </tr>
-  </thead>
-  <tbody>
+    </thead>
+    <tbody>
     <tr>
       <% location[:data]["detail"].each do |_day, value| %>
-        <td><%= value["day"]["avg"] %></td>
-        <td><%= value["night"]["avg"] %></td>
+        <td><%= value["day"]["min"] %>"</td>
+        <td><%= value["night"]["min"] %>"</td>
       <% end %>
     </tr>
-  </tbody>
-</table>
+    </tbody>
+  </table>
+</div>

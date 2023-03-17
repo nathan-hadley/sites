@@ -25,12 +25,13 @@ body {
   // end default styling
 
   .sidebar {
+    z-index: 9999;
     position: fixed;
     h1 {
       font-family: 'Jost', serif;
       font-weight: bold;
       font-size: 32px;
-      color: var(--color-white);
+      color: var(--color-black);
       margin-top: 0;
       margin-bottom: 0;
       letter-spacing: 8px;
@@ -38,9 +39,13 @@ body {
       max-width: 200px;
     }
 
-    nav ul {
-      list-style-type: none;
-      padding: 0;
+    nav {
+      .menu { display: none; }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
 
       li {
         font-size: 18px;
@@ -96,22 +101,48 @@ body {
       h1 {
         display: none;
       }
+
+      nav:hover ul {
+        display: block;
+      }
+
       nav {
         width: 100%;
-        padding: 8px 0;
-        z-index: 1;
+        padding: 14px 0;
         background-color: var(--color-background);
         position: fixed;
         top: 0;
+        margin-right: 40px !important;
+
+        .menu {
+          display: block;
+          font-size: 24px;
+        }
+
         ul {
-          // need twice margin of body to center nav
-          margin: 0 100px 0 0;
-          display: flex;
-          justify-content: space-between;
+          margin-top: 8px;
+          display: none;
+          position: absolute;
+          background-color: var(--color-background);
+          border: 1px solid #ccc;
+          padding: 0;
+
+          .archive { display: block; }
+
           li {
-            display: inline-block;
+            display: block;
+            width: 100%;
+
+            a {
+              display: block;
+              padding: 8px 16px;
+              text-decoration: none;
+            }
+
+            a:hover {
+              background-color: #f2f2f2;
+            }
           }
-          .show-archive { display: inline-block; }
         }
       }
     }
@@ -122,8 +153,5 @@ body {
 @media (max-width: 375px) {
   body {
     margin: 50px 20px;
-    nav ul {
-      margin: 0 40px 0 0 !important;
-    }
   }
 }
