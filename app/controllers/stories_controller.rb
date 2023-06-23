@@ -1,25 +1,33 @@
 class StoriesController < ApplicationController
-  before_action :set_articles
+  before_action :set_stories
 
   def index
-    @articles_on_page = Article.page(params[:page])
+    @stories_on_page = Story.page(params[:page])
   end
 
   def show
-    @article = Article.find_by(slug: params[:slug])
+    @story = Story.find_by(slug: params[:slug])
+  end
+
+  def edit
+    @story = Story.find_by(slug: params[:slug])
+  end
+
+  def new
+    @story = Story.new
   end
 
   private
 
-  # Done before both index (paginated articles) and show (individual article).
-  def set_articles
-    articles = Article.all
-    articles_within_years = {}
-    articles.each do |article|
-      year = article.publish_date.strftime("%Y")
-      articles_within_years[year] ||= []
-      articles_within_years[year] << article
+  # Done before both index (paginated stories) and show (individual story).
+  def set_stories
+    stories = Story.all
+    stories_within_years = {}
+    stories.each do |story|
+      year = story.publish_date.strftime("%Y")
+      stories_within_years[year] ||= []
+      stories_within_years[year] << story
     end
-    @articles_within_years = articles_within_years
+    @stories_within_years = stories_within_years
   end
 end

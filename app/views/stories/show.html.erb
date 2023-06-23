@@ -1,11 +1,12 @@
 <head>
-  <title><%= @article.title %></title>
+  <title><%= @story.title %></title>
   <%= stylesheet_link_tag "stories", "data-turbo-track": "reload" %>
 </head>
 
 <div class="stories-container">
   <div class="articles-container">
-    <%= render 'article', article: @article %>
+    <%= render 'story', story: @story %>
+    <%= render 'form', story: @story %>
   </div>
   <%= render 'archive' %>
 </div>

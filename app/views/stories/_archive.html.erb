@@ -1,10 +1,10 @@
 <div class="archive">
   <h2>Archive</h2>
-  <% @articles_within_years.each do |year, articles| %>
+  <% @stories_within_years.each do |year, stories| %>
     <h3><%= year %></h3>
-    <% articles.each do |article| %>
-      <a href="/stories/<%= article.slug %>">
-        <p><%= article.title %></p>
+    <% stories.each do |story| %>
+      <a href="/stories/<%= story.slug %>">
+        <p><%= story.title %></p>
       </a>
     <% end %>
   <% end %>

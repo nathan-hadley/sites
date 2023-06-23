@@ -1,6 +1,4 @@
-# TODO: remove
-
-class Article < ApplicationRecord
+class Story < ApplicationRecord
   paginates_per 3
 
   default_scope { order(publish_date: :desc) }
