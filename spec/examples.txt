@@ -1,0 +1,4 @@
+example_id                                       | status  | run_time      |
+------------------------------------------------ | ------- | ------------- |
+./spec/helpers/snow/noaa_helper_spec.rb[1:1:1:1] | unknown |               |
+./spec/helpers/snow/noaa_helper_spec.rb[1:1:2:1] | passed  | 14.05 seconds |

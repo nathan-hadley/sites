@@ -5,6 +5,15 @@ body {
   background-color: var(--color-background);
   font-family: 'Proxima Nova', serif;
 
+  div.error {
+    background-color: #f2dede; /* Light red */
+    border: 1px solid #ebccd1; /* Dark red */
+    color: #a94442; /* Darker red */
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
   a, a:link {
     font-weight: bold;
     color: var(--color-link);

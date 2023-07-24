@@ -21,6 +21,11 @@
   </head>
 
   <body>
+    <% if flash[:error].present? %>
+      <div class="error">
+        <%= flash[:error] %>
+      </div>
+    <% end %>
     <div class='sidebar'>
       <h1>nathan hadley</h1>
       <nav>
