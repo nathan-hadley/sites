@@ -2,7 +2,7 @@ class StoriesController < ApplicationController
   before_action :set_stories
 
   def index
-    @stories_on_page = Article.page(params[:page])
+    @stories_on_page = Article.where(category: @category).page(params[:page])
   end
 
   def show
@@ -13,7 +13,8 @@ class StoriesController < ApplicationController
 
   # Done before both index (paginated stories) and show (individual story).
   def set_stories
-    stories = Article.all
+    @category = params[:category] || nil
+    stories = Article.where(category: @category)
     stories_within_years = {}
     stories.each do |story|
       year = story.publish_date.strftime("%Y")

@@ -50,22 +50,26 @@
         <ul>
           <li>
             <%= link_to 'stories', stories_path,
-            class: ('active' if current_page?(stories_path)) %>
+              class: ('active' if current_page?(stories_path) && params[:category].blank?) %>
+          </li>
+          <li>
+            <%= link_to 'software', stories_path(category: 'software'),
+              class: ('active' if current_page?(stories_path(category: 'software'))) %>
           </li>
           <li class="mobile-only <%= 'archive' if current_page?(root_path) || request.path.starts_with?('/stories') %>">
             <a href="#" data-controller="archive" data-action="click->archive#scroll">archive</a>
           </li>
           <li>
             <%= link_to 'photos', photos_path,
-            class: ('active' if current_page?(photos_path)) %>
+              class: ('active' if current_page?(photos_path)) %>
           </li>
           <li>
             <%= link_to 'about', about_index_path,
-            class: ('active' if current_page?(about_index_path)) %>
+              class: ('active' if current_page?(about_index_path)) %>
           </li>
           <li>
             <%= link_to 'snow', snow_index_path,
-            class: ('active' if current_page?(snow_index_path)) %>
+              class: ('active' if current_page?(snow_index_path)) %>
           </li>
         </ul>
       </nav>
