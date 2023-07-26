@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   resources 'stories', only: [:index, :show], param: :slug do
     get '/page/:page', action: :index, on: :collection
+    get '/category/:category', action: :index, on: :collection
   end
 
   # redirect old urls with a date before the slug to new urls without the date
