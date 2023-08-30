@@ -1,5 +1,3 @@
-# TODO: remove
-
 class Article < ApplicationRecord
   paginates_per 3
 

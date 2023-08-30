@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_07_25_223823) do
+ActiveRecord::Schema[7.0].define(version: 2023_08_30_195923) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -26,19 +26,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_25_223823) do
     t.index ["publish_date"], name: "index_articles_on_publish_date"
     t.index ["slug"], name: "index_articles_on_slug"
     t.index ["title"], name: "index_articles_on_title"
-  end
-
-  create_table "stories", force: :cascade do |t|
-    t.string "title"
-    t.string "slug"
-    t.string "header_image_html"
-    t.string "content_html"
-    t.datetime "publish_date"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["publish_date"], name: "index_stories_on_publish_date"
-    t.index ["slug"], name: "index_stories_on_slug"
-    t.index ["title"], name: "index_stories_on_title"
   end
 
 end
