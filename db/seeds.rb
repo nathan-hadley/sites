@@ -168,3 +168,4 @@ Article.create!([
     publish_date: '2017-01-27 00:00:00'
   }
 ])
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
