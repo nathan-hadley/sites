@@ -53,6 +53,7 @@ gem 'kaminari'
 
 # Admin
 gem 'activeadmin'
+gem 'activeadmin_quill_editor'
 gem 'devise'
 gem 'cancancan'
 gem 'draper'
