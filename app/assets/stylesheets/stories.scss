@@ -11,6 +11,8 @@
     }
     time {
       color: var(--color-date);
+      display: inline-block;
+      margin-bottom: 22.5px;
     }
     p {
       text-align: justify;
@@ -20,11 +22,11 @@
       font-weight: 600;
       font-size: 16px;
     }
+    img {
+      max-width: 100%;
+    }
     figure {
       margin: 32px 0;
-      img {
-        max-width: 100%;
-      }
       p {
         font-size: 12px;
         text-align: left;

@@ -14,7 +14,7 @@ body {
     border-radius: 5px;
   }
 
-  a, a:link {
+  a, a:link, a:visited {
     font-weight: bold;
     color: var(--color-link);
     text-decoration: none;
@@ -42,11 +42,10 @@ body {
       font-size: 32px;
       color: var(--color-black);
       margin-top: 0;
-      margin-bottom: 0;
+      margin-bottom: 10px;
       letter-spacing: 0;
       line-height: 40px;
       max-width: 200px;
-
     }
 
     .animated-text {
