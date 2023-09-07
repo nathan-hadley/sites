@@ -12,9 +12,29 @@ ActiveAdmin.register Article do
       f.input :title
       f.input :slug
       f.input :header_image_html
-      f.input :content_html, as: :quill_editor
+      f.input :content_html, as: :quill_editor,
+              input_html: {
+                data: {
+                  options: {
+                    modules: {
+                      toolbar: [
+                        ['bold', 'italic', 'underline', 'strike'],
+                        ['blockquote', 'code-block'],
+                        [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+                        [{ 'script': 'sub'}, { 'script': 'super' }], # superscript/subscript
+                        [{ 'indent': '-1'}, { 'indent': '+1' }], # outdent/indent
+                        [{ 'direction': 'rtl' }], # text direction
+                        [{ 'size': ['small', false, 'large'] }], # font size
+                        [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
+                        [{ 'color': [] }, { 'background': [] }], # dropdown with defaults from theme
+                        [{ 'align': [] }],
+                      ]
+                    },
+                  }
+                }
+              }
       f.input :publish_date
-      f.input :category
+      f.input :category, as: :select, collection: Article::CATEGORIES
     end
     f.actions
   end
