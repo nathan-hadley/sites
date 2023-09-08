@@ -53,6 +53,7 @@ gem 'kaminari'
 
 # Admin
 gem 'activeadmin'
+gem 'activeadmin_quill_editor'
 gem 'devise'
 gem 'cancancan'
 gem 'draper'
@@ -63,6 +64,7 @@ group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'rspec-rails'
   gem 'factory_bot_rails'
+  gem 'rails-controller-testing'
 end
 
 group :development do
