@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Nathan Hadley</title>
+    <title><%= content_for?(:title) ? yield(:title) : "Nathan Hadley" %></title>
+    <meta name="description"
+      content="<%= content_for?(:description) ?
+                     yield(:description) :
+                     "Nathan Hadley: Climber, Software Developer, New Route Developer, Setter, & Photographer" %>"
+    >
+    <meta name="keywords"
+      content="<%= content_for?(:keywords) ? yield(:keywords) : "default, keywords" %>"
+    >
+
     <meta name='viewport' content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>

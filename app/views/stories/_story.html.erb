@@ -1,3 +1,7 @@
+<% content_for :title, @story.title.length > 40 ? @story.title : "Nathan Hadley - #{@story.title}" %>
+<% content_for :description, truncate(strip_tags(@story.content_html.gsub("</p>", " ")), length: 160) %>
+<% content_for :keywords, "#{@story.category}, blog" %>
+
 <%= raw story.header_image_html %>
 <h1><%= story.title %></h1>
 <time><%= story.publish_date.strftime("%B %d, %Y") %></time>
