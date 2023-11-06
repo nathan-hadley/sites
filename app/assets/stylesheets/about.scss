@@ -6,6 +6,10 @@
   img { width: 100%; }
 }
 
+li {
+  font-size: 14px;
+}
+
 @media (max-width: 768px) {
   .about-photo {
     grid-column: 1 / 3;
