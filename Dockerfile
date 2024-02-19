@@ -40,8 +40,9 @@ RUN mkdir /app
 WORKDIR /app
 RUN mkdir -p tmp/pids
 
-RUN gem update --system --no-document && \
-    gem install -N bundler -v ${BUNDLER_VERSION}
+# This caused deploy to fail because it wanted update Ruby version
+# RUN gem update --system --no-document && \
+#     gem install -N bundler -v ${BUNDLER_VERSION}
 
 #######################################################################
 
