@@ -17,3 +17,4 @@ rails/.bundle/
 # Misc
 .env*
 *.local
+/.git-nested-backups/
