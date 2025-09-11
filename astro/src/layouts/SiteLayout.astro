@@ -1,0 +1,23 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Sidebar from '../components/Sidebar.astro';
+interface Props { title: string; description: string }
+const { title, description } = Astro.props as Props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+	<body class="min-h-screen prose prose-neutral">
+		<div class="flex flex-row gap-6">
+			<Sidebar class="w-[200px] shrink-0" />
+			<main class="flex-1 max-w-[900px]">
+				<slot />
+			</main>
+		</div>
+	</body>
+</html>
+
+

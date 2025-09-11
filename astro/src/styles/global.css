@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@source "./";
+@plugin "@tailwindcss/typography";
+
+
+a {
+  @apply hover:text-black no-underline;
+}
