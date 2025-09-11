@@ -111,15 +111,16 @@ function parseSeeds(content) {
   if (startIdx === -1) throw new Error('Could not find Article.create! in seeds.rb');
   const articlesSection = content.slice(startIdx);
   // Regex to capture each article block
-  const re = /\{\s*title:\s*'([^']+)',\s*slug:\s*'([^']+)',\s*header_image_html:\s*"([\s\S]*?)",\s*content_html:\s*"([\s\S]*?)",\s*publish_date:\s*'([^']+)'\s*\}/gm;
+  // Support title quoted with either single or double quotes
+  const re = /\{\s*title:\s*(["'])(([\s\S]*?))\1,\s*slug:\s*'([^']+)',\s*header_image_html:\s*"([\s\S]*?)",\s*content_html:\s*"([\s\S]*?)",\s*publish_date:\s*'([^']+)'\s*\}/gm;
   const items = [];
   let m;
   while ((m = re.exec(articlesSection)) !== null) {
-    const title = m[1];
-    const slug = m[2];
-    const headerHtml = m[3].replace(/''/g, "'");
-    const contentHtml = m[4];
-    const publishDate = m[5];
+    const title = m[2];
+    const slug = m[4];
+    const headerHtml = m[5].replace(/''/g, "'");
+    const contentHtml = m[6];
+    const publishDate = m[7];
     // Extract hero image filename from headerHtml
     let hero = undefined;
     const mImg = headerHtml.match(/src='\/assets\/([^']+)'/);
