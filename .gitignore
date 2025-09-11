@@ -1,0 +1,19 @@
+# Node
+node_modules/
+astro/dist/
+astro/.astro/
+astro/.vercel/
+
+# Ruby/Rails
+rails/log/
+rails/tmp/
+rails/storage/
+rails/vendor/bundle/
+rails/.bundle/
+
+# OS
+.DS_Store
+
+# Misc
+.env*
+*.local
