@@ -5,7 +5,7 @@ pubDate: 2017-05-15
 heroImage: ../../assets/image-asset-1.jpeg
 ---
 
-This is an article that I wrote for MSR’s blog. You can find it published on their site [here](https://thesummitregister.com/winter-climbing-tips/).
+This is an article that I wrote for MSR’s blog. You can find it published on their site [here](https://cascadedesigns.com/blogs/msr-tips/winter-climbing-tips/).
 
 The freedom of moving high in the mountains is one of the best feelings in the world. Unfortunately for many with the mountain climbing bug, these experiences are limited to a few summer-time months. If this is you, then what do you do with your mountain-starved soul the other eight to nine months out of the year? Do you catch yourself dreaming of trails through colorful alpine meadows and scrambles up high rocky ridges? You might be able to keep your soul semi-satisfied by climbing lowland rock, heading to the busy ski resort, or holing up with some good mountaineering literature, but we all know that these are just meager replacements for the real thing—the deeply rewarding adventure of climbing mountains.
 
