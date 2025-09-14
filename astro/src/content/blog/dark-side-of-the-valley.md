@@ -1,0 +1,52 @@
+---
+title: Dark Side of the Valley
+description: A Yosemite trip focused on shady classics when El Cap plans melted in the heat.
+pubDate: 2017-11-15
+heroImage: ../../assets/HADLEY-2017-YOSEMITE-2-1.jpg
+---
+
+When you drive into Yosemite Valley, El Capitan is one of the first things that you see—one of the most beautiful hunks of stone on the planet, and the object of many climbers’ dreams. And this definitely goes for me. I too am irresistibly drawn to climbing’s Great Supermodel.
+
+And so it was my plan to get intimate with the Supermodel this last October. I hadn’t been to the Valley in 10 years—the last time I was there, I was 15. Now, in my great climbing maturity, I was ready for the Captain. And I believed I was ready to free climb it. But unfortunately for me, due to heat and crowds, the trip ended up being a tour of some hard and classic free climbs on the shady side of the Valley.
+
+Blake Herrington and I arrived in El Portal late on a Friday night, October 20th. The plan was to sleep in a bit and get a casual start for a route on Fifi Buttress. Blake wanted to get on Romulan Warbird (V 5.12c), but I wanted to go straight for Final Frontier (V 5.13b). Blake put forth that we should start slow and I had to relent. I was probably being too ambitious.
+
+![Blake on Romulan Warbird](/images/HADLEY-2017-YOSEMITE-1.jpg)
+_Blake on Romulan Warbird._
+
+The next morning, we were at the base of the route at a causal 11pm, with our friends Nik Berry and Bronson Hovie 2 pitches above us. “How was the first pitch?” I yelled up at Nik. “Kinda hard. And the rock doesn’t feel very grabby.” Blake and I tossed a carabiner for the first lead. The CAMP side landed up and the 12b warmup pitch was all mine. I eked through it, and so did Blake, and we continued to eke our way through the rest of the route, including two more pitches of 5.12. The climbing was amazing, and the belay ledges were even more amazing—key ingredients for a classic free climb. I would climb this route many more times, and was glad Blake pushed for it. It was a great way to start our trip.
+
+Coming from Washington, and especially coming from climbing at Index, it was a relief to be able to climb 5.12 pitches on granite first try fairly comfortably. (5.12 is also no gimmy at “local” PNW crags like Little Si, Squamish and Smith!) Not very many climbers have onsighted Index 5.12, and by the end of our first day, I had already onsighted more 5.12s in Yosemite than I had ever at Index.
+
+Two days later, we were back at Fifi Buttress for Final Frontier. We were psyched to have some 5.11 pitches to warm-up on this time. When arrived at the crux block of 12d, 13a, 13b, and 12c, we were psychologically taken out by poor stances and poorly situated belays. The anchor bolts were always just left or right of the stance, so that you were forced into a hanging belay with ledge just out of reach! I onsighted the first 12d, sent the 13a, and felt close on the 13b after one try, but Blake wasn’t as close to sending and we were both a little irritable from having to hang in our harnesses so much, so we called it and rapped from the base of the 12c. Several days later, I returned with my friend Austin Siadak to finish the route and lead every pitch with no falls. Almost all of the pitches on this route are amazing. Nik Berry and James Lucas did a nice thing by freeing this route, though I have a slight grudge against them for not making the belays more free-climbing friendly.
+
+We wanted to climb the next day but didn’t want to hang in our harnesses at all so we decided on the Rostrum (IV 5.11c), which supposedly had good ledges, not-to-mention it being a Yosemite classic. The night before climbing it, Austin, Blake and I sat in the living room of our place in El Portal discussing how to climb it most efficiently as a team of 3, and decided to try climbing the route in 5 long pitches, leader fixing, and the two followers following simultaneously on mini-traxions. We called the middle follower the parasite. This ended up working well. On a somewhat non-meandering route, the two followers were not pulled to the side at all. Blake and Austin said that even following the traverse on the last pitch was smooth. After leading a 200ft pitch, the leader could just chill, and work on a crossword puzzle, or some other productive thing. No trying to belay two people simultaneously, and since we only needed one rope, and because it was always just hanging straight down below us, there was literally no rope management work necessary. Just long glorious pitches. We were slowed down a bit by a team from Norway, but we’re good friends with them now, and found out that the granite in Norway is better than Squamish and Yosemite. But what about Index? TBD. I think we started at 1pm and finished around 5pm.
+
+After the Rostrum, our friend Max Tepfer arrived in the Valley. It was still quite hot, and wanting to try a route on a different formation, we decided on Border Country (V 5.12c) on Middle Cathedral. Blake used a random number generator on his computer to decide who would climb with who. On this party ascent, I’d climb with Max, and Austin would climb with Blake. Max and I simuled the first 7 pitches to the crux headwall in 3 leads. The intro pitches were fun featured 5.8-5.10 face climbing, but the real gems of this route are the 4 headwall pitches of 12a, 12c, 11+ and 11+. Max wanted to lead the 12c, which he had tried before, but hadn’t sent, so we decide to swing leads with me starting with the 12a. I onsighted this pitch and after watching Max’s beta for the low crux on the 12c, flashed that as well. The 11+ pitches went smoothly for both of us and we stopped back at the crux 12c on our way down so Max could re-lead and send. Blake and Austin were above us at this point and Austin took one of the better iPhone photos I’ve seen of Max hiking the thing in the day’s last glimmers of light. Send of the day. The features, the knobs, odd pockets, and ribs were amazing. Those four pitches contained some of best, most interesting granite I’ve ever climbed on. Thanks Jeremy Collins, Dana Drummond, and Mikey Schaefer for the beautiful route!
+
+![Border Country](/images/HADLEY-2017-YOSEMITE-4.jpg)
+_Max on Border Country._
+
+At this point in the trip, after about a week, I knew El Cap was not going to happen. I wasn’t feeling much psych from Blake, which was reasonable because it was so warm. It was supposed to cool down after my wife, Liz, was going to arrive, and but I didn’t want to leave her to hang out alone for her first few days of her first trip to Yosemite. I talked to Josh Wharton and Nik Berry a bit about coming back later in November to have a shot at it, but they both either found partner before I committed or had an old partner come through later. Freeing El Cap was a big goal for 2017, something I really wanted to do, but it wasn’t meant to be. Good thing it’s not going anywhere.
+
+Monday, October 30th, was the last day I had to give another hard route a shot before I had to pick Liz up at the Sacramento airport that evening. Max had been working on the Westie Face (V 5.13a A0) of the Leaning Tower the previous season and was psyched to get back on it. I was pretty sure I had a good chance at sending it in a day, and maybe even a slight chance at an onsight. It was at least not out of the realm of possibility. Max’s goal was to re-remember the moves, so we decided I would lead most of the route.
+
+The day before getting on the route, Max and I hiked up to the base to fix the initial 200ft bolt ladder that gets you into the free climbing. We rock-paper-scissored over who would lead it and I lost, which was probably a good thing because I had literally no aid climbing experience and a 200ft bolt ladder would probably be a good start. It felt like it took forever, even after getting into a rhythm of it. Without a hook, I had to pull a mandatory free move over a roof, that actually felt kinda hard in approach shoes. I made it through though and we were ready for a speedy ascent the next day.
+
+![Leaning Tower](/images/HADLEY-2017-YOSEMITE-5.jpg)
+_The Leaning Tower._
+
+With a 5:30am alarm, we were probably at the base of our fixed line by 7:30am. We ascended our line to a hanging corner, several hundred feet off the ground. It was an intimidating start, needless-to-say, with 12c difficulties right off the belay. I didn’t handle the exposure and pressure to send very well and felt pretty shaky. I made it through the first cruxy moves but punted when I shook myself off a small foot. Blew the onsight. I lowered to the belay and yo-yo back up to where I fell before and finished the pitch. The next pitch, the crux pitch, contains two cruxy sections separated by a stance on a slab, a first one at around 12d, and a second at around 13a. As I was about to exiting the first crux, I tightened up, stopped breathing, and fell. I lowered, pulled the rope, and immediately got back on the pitch, still quite pumped. I relaxed my way through the first crux and onsighted the rest of the pitch, including the 13a crux. Having climbed the first two pitches almost twice each, I was already a bit tired and pumped with 4 more pitches of 5.12 and one 11+ to go. But the crux was behind me so I was pretty confident it would go. Sure enough, the rest of the pitches went first try. We topped out around 2pm and I was pretty pooped from all the steep climbing. I think I had been carrying a low-level flash pump with me the whole day. I was glad to send, but a little bummed about my poor performance on the first two pitches. We were back in El Portal by 5pm and I was at the Sacramento airport by 9pm to pick up Liz and back in El Portal after midnight. A long day, but good last day of hard climbing!
+
+For the rest of the week, I was able to enjoy some of Yosemite’s classic moderate routes with Liz, like the East Buttress of Middle Cathedral, Nutcracker, and Serenity Crack. It was early November and the Valley was starting to clear out and quiet down. It was a fitting way to end the trip, but seeing El Cap everyday, and knowing that it would have to wait, made me a bit sad. But for now, I had had a great first “mature” trip to the Yosemite and a most excellent tour of the darker side of the valley.
+
+![East Buttress](/images/HADLEY-2017-YOSEMITE-7.jpg)
+_Liz on the East Buttress, Middle Cathedral._
+
+![Moody day](/images/HADLEY-2017-YOSEMITE-6.jpg)
+_Moody day on Middle Cathedral._
+
+![Half Dome](/images/HADLEY-2017-YOSEMITE-8.jpg)
+_Half Dome._
+
+
