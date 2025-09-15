@@ -2,7 +2,7 @@
 title: Rubbernecker
 description: A special Washington Pass route and links to feature articles.
 pubDate: 2023-01-06
-heroImage: ../../assets/JWattPhoto_WashingtonPass-928.jpg
+heroImage: ../../../public/images/JWattPhoto_WashingtonPass-928.jpg
 ---
 
 Excited to share about this special route!

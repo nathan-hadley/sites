@@ -2,7 +2,7 @@
 title: Long's Peak Diamond
 description: A 10-day Colorado trip focused on The Honeymoon is Over and Gambler’s Fallacy on Long’s Diamond.
 pubDate: 2022-09-18
-heroImage: ../../assets/IMG_9576.jpeg
+heroImage: ../../../public/images/IMG_9640.jpeg
 ---
 
 This writeup is a year late, but I wanted to make sure I had something down for this great 2021 trip to the Long’s Peak Diamond with my good friend Mike Kerzhner. If you like hard multipitch climbing in the mountains as much as I do, then a trip to the Diamond is essential. There is nothing like it in North America – a beautiful high elevation wall stacked with hard routes. That’s coming from someone who loves the rock walls of the Cascades more than any other range.

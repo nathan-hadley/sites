@@ -2,7 +2,7 @@
 title: "Vanishing Point 2.0: A Classic Route Modernized"
 description: Revisiting Dolomite Tower, modernizing Vanishing Point, and thorough approach beta.
 pubDate: 2020-09-04
-heroImage: ../../assets/2020-HADLEY-Mt-Baring-in-the-Clouds.jpg
+heroImage: ../../../public/images/2020-HADLEY-Mt-Baring-in-the-Clouds.jpg
 ---
 
 Ever since climbing Dolomite Tower, a subpeak of Mt. Baring, in 2017, I fell a little in love with that face. I hiked several of my friends and family out to Barclay Lake to show it off. The climbing on Vanishing Point, the one modern-ish route on the tower (put up in 1998 by Brian Burdo, and now fully modern thanks to 2020 efforts on it), is fun and the setting spectacular. Climbing it with my good friend Travis Kemp left an impression. I couldn’t forget it. And I wanted to experience it again or give back to the wall in some way that would encourage others to experience its magic as well.

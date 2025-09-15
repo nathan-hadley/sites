@@ -2,7 +2,7 @@
 title: Patagonia
 description: Five weeks in Chaltén — windows, classics, bouldering FA, and a final perfect day on Pilar Rojo.
 pubDate: 2018-05-14
-heroImage: ../../assets/2018-HADLEY-FITZ-AND-POINCENOT-SUNRISE.jpg
+heroImage: ../../../public/images/2018-HADLEY-FITZ-AND-POINCENOT-SUNRISE.jpg
 ---
 
 I wasn’t sure what to expect going into my trip to Patagonia. I had just emerged from a period of low motivation and I wasn’t sure I was quite through with it yet. Would I feel like I was wasting my time and taking unnecessary risk? Was I going there just because it was the thing to do? Patagonia was a place I had dreamed of going to, but maybe I’d feel out of place…like I shouldn’t be there.

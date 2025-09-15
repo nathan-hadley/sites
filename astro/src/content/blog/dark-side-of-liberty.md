@@ -2,7 +2,7 @@
 title: Dark Side of Liberty
 description: Washington’s hardest multipitch on Liberty Bell — quality, difficulty, and a send.
 pubDate: 2019-09-18
-heroImage: ../../assets/2016-Hadley-Liberty-Bell-1.jpg
+heroImage: ../../../public/images/2016-Hadley-Liberty-Bell-1.jpg
 ---
 
 Mikey Schafer, with his partner Shanjean Lee, established yet another free line on the east face of Liberty Bell this summer. Their new route, “Dark Side of Liberty,” an 11-pitch, 350 meter 5.13d, is Mikey’s hardest new route to-date and is now Washington’s hardest multipitch route. So the route is hard, but it is also really, really good. The climbing on it is ridiculously fun, shocking sometimes in its quality.

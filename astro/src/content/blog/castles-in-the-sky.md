@@ -2,7 +2,7 @@
 title: Castles in the Sky
 description: Fast progress on a dream Castle Mountain route and one of my favorite pitches.
 pubDate: 2019-07-29
-heroImage: ../../assets/2019-HADLEY-CASTLES-IN-THE-SKY-1.jpg
+heroImage: ../../../public/images/2019-HADLEY-CASTLES-IN-THE-SKY-1.jpg
 ---
 
 Last week I climbed Sonnie Trotter’s “Castles in the Sky,” a 5-pitch route on the middle tier of Castle Mountain. The crux pith is an epic 50 meter 5.14a, culminating on a beautiful sharp arête. I can’t emphasize enough how absurd the position is—you won’t be able to tell from the photos. And despite the still crumbling rock, the climbing is mostly solid, varied, and quite enjoyable. It’s easily one of my favorite pitches.

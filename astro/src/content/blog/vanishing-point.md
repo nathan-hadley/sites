@@ -2,7 +2,7 @@
 title: Vanishing Point
 description: A fast, exciting ascent of Burdo’s masterpiece on Dolomite Tower, with updated beta.
 pubDate: 2017-09-22
-heroImage: ../../assets/IMG_5756.JPG
+heroImage: ../../../public/images/IMG_5756.JPG
 ---
 
 My good friend, Travis Kemp, and I climbed Vanishing Point about a month ago, and I know some people have been curious about this route and would benefit from even a short trip report. There is still time to climb this route this season, but it's dwindling!

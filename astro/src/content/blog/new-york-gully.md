@@ -2,7 +2,7 @@
 title: New York Gully
 description: Third time’s the charm on Snoqualmie’s NY Gully — short window, memorable moments.
 pubDate: 2017-01-27
-heroImage: ../../assets/image-asset-6.jpeg
+heroImage: ../../../public/images/image-asset-6.jpeg
 ---
 
 New York Gulley has been one of the main objectives on the winter ticklist for us. It was potentially the perfect route with serious and interesting climbing to do in decent time Seattle-to-Seattle. We were a little too eager to climb it this season. Excited from the early cold temperatures in December, we climbed the first pitch of the direct variation, but decided to bail due to slow, precarious movement on a route that was not in condition.
@@ -13,7 +13,7 @@ Third time’s the charm, right? We decided to go for it again just a few days l
 
 We ditched our skis and descend down below the face and then slogged up to the base of the exposed snow ramps that marked the beginning of the route. When I pulled out my crampons, I realized I had grabbed my wife’s set and that the straps were cut too short to fit over my ski boots. I threaded the strap through the toe and immediately back to the buckle, leaving the other side of the heel loose. Amazingly, the lip on the heel of the boot was enough to keep it secure.
 
-![Start of route](/images/image-asset-7.jpeg)
+![Start of route](/assets/image-asset-7.jpeg)
 
 I led the easy first pitch, probably 50-60 meters, placing one cam. Travis led the second pitch, a traverse to the left with an occasional short steep step, bringing us to a belay off a dead tree at the base of the main bit of the route—a steep rightward leaning ramp. Because I'm new to this kind of climbing, Travis took off again. He made quick progress, finding decent protection and several fixed pins. Around 40 meters up, on a steeper step, his pick and front points blew at the same time and his body silently fell backward. The rope started pulling though my belay device. I grab it, brake it, and get pulled into the snow in front of me. “Are you alright?” I yell up to him. I think I hear a “yes,” as Travis slowly gets back up and starts to climb again. An old pin held his fall—his first alpine fall, a fall many people never take.
 

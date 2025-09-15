@@ -2,7 +2,7 @@
 title: Cuba
 description: Two weeks climbing around Viñales with Liz and Luke — images and impressions.
 pubDate: 2020-03-28
-heroImage: ../../assets/2020-HADLEY-CUBA-10.jpg
+heroImage: ../../../public/images/2020-HADLEY-CUBA-10.jpg
 ---
 
 I visited Cuba with my wife, Liz, and brother, Luke, in January. We spent two weeks climbing in the paradise of Viñales. Here are some impressions from our trip to this fascinating country!

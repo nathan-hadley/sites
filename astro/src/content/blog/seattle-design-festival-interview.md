@@ -2,7 +2,7 @@
 title: Seattle Design Festival Interview
 description: A conversation about routesetting as design with the Seattle Design Festival.
 pubDate: 2022-06-02
-heroImage: ../../assets/DiC_Fremont-Bouldering_blog-image-720x432.jpeg
+heroImage: ../../../public/images/DiC_Fremont-Bouldering_blog-image-720x432.jpeg
 ---
 
 I recently got to sit down Matthew McWilliams from the Seattle Design Festival to talk about setting as design.

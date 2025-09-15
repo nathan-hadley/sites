@@ -2,7 +2,7 @@
 title: Training Using Circuits
 description: How to build endurance, power-endurance, and skill using circuits in the gym.
 pubDate: 2020-06-25
-heroImage: ../../assets/Vanishing-Point-Mt-Baring-HADLEY.jpeg
+heroImage: ../../../public/images/Vanishing-Point-Mt-Baring-HADLEY.jpeg
 ---
 
 A circuit is a group of boulders designed to create a certain experience. In a competition, a circuit of 4 or 5 boulders is designed to separate the competitors, find a ranking, and to produce an exciting show for spectators. In a climbing gym, a circuit usually represents a diverse group of boulders of approximately the same level or grade. Outside, there could be a “highball” (tall boulder) circuit or a “5-star” (classics) circuit, for example. A circuit could be anything.

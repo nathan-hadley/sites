@@ -2,7 +2,7 @@
 title: First Route in the Alaska Range
 description: Flying into the Range, a committing warmup on Mt. Frances, and a long first day.
 pubDate: 2017-01-27
-heroImage: ../../assets/image-asset-10.jpeg
+heroImage: ../../../public/images/image-asset-10.jpeg
 ---
 
 We made it to Talkeetna last night after a three-hour shuttle from Anchorage. Anchorage was almost as I expected it to be—a little pocket of flat ground on the ocean and surrounded by mountains. In Washington, we joke about learning to appreciate and distinguish the shades of grey, but Anchorage was on another level. It was bleak, but incredibly beautiful. There were trees until the land rose even the slightest—then grey. Even the ocean was grey.

@@ -2,7 +2,7 @@
 title: Turkey
 description: Sunshine, tufas, and playful limestone around Geyikbayırı.
 pubDate: 2019-04-17
-heroImage: ../../assets/2019-TURKEY-1.jpg
+heroImage: ../../../public/images/2019-TURKEY-1.jpg
 ---
 
 Traveling to climb isn’t just about the climbing, but also the food, culture, different landscapes and weather. Several climbers asked us why we came all the way from America to climb in Turkey. I said once, “Because you can’t find Turkey anywhere else!” Yes, American climbing is good, and if we were concerned only about the climbing, then we could have stayed home and saved a lot of money. But climbing is such an immersive activity, and it’s oftentimes the non-climbing factors that make a great climbing experience. The view. Your climbing partner. The sunshine. The food. Rest day activities. The beer at the end of the day. These things matter.

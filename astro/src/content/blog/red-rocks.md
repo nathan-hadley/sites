@@ -2,7 +2,7 @@
 title: Red Rocks
 description: A three-week Red Rocks trip—Dreefee and Crystal Dawn.
 pubDate: 2025-09-11
-heroImage: ../../assets/Red-Rocks-Crystal-Dawn-Sunset.jpeg
+heroImage: ../../../public/images/Red-Rocks-Crystal-Dawn-Sunset.jpeg
 ---
 
 In March, I found myself unemployed and decided to make the most of my situation by throwing together a three-week trip to Red Rocks with my long-time partner, Mike Kerzhner, for the following month. This trip had been on my bucket list for years, and our priority was to tackle Dreefee, one of the hardest routes in Red Rocks, with five 5.13 pitches. I had also been eyeing Crystal Dawn, an eight-pitch climb with two overhanging and sporty 5.13 pitches, and two more rated 12+. These two routes had been on my radar for years, but we decided we would prioritize Dreefee.

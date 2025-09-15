@@ -2,7 +2,7 @@
 title: The Bugaboos
 description: A short alpine tour of Bugaboo classics amidst fresh snow and waterfalls.
 pubDate: 2019-09-09
-heroImage: ../../assets/2019-HADLEY-BUGABOOS-6.jpg
+heroImage: ../../../public/images/2019-HADLEY-BUGABOOS-6.jpg
 ---
 
 Mike Kerzhner and I started our four week stay in Canmore with a stop at the Bugaboos. Neither of us had been and we thought a little dose of alpine climbing would make us thankful for the Canmore bolted limestone. Mike and I met in El Chaltén, so it would be fun to check out this “mini-Patagonia” together.

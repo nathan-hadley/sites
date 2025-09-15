@@ -2,7 +2,7 @@
 title: The Path
 description: A day-send of a storied Lake Louise gear testpiece and reflections on style.
 pubDate: 2019-08-06
-heroImage: ../../assets/2019-YCBRAND-NUSSE-NATHAN-HADLEY-ON-THE-PATH-2.jpg
+heroImage: ../../../public/images/2019-YCBRAND-NUSSE-NATHAN-HADLEY-ON-THE-PATH-2.jpg
 ---
 
 “The Path,” at Lake Louise, Banff National Park, is one of those iconic lines in North America that I have known about for a long time. The climbing on the beautiful 45 meter face looked excellent and the backdrop of Lake Louise provided a setting hard to beat. It’s become a test for those who want to push themselves on gear, but seemed ultimately safe. All ingredients for a classic rock climb.

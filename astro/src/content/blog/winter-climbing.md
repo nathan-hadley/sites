@@ -2,7 +2,7 @@
 title: Winter Climbing
 description: Practical guidance to extend your climbing season into winter and spring.
 pubDate: 2017-05-15
-heroImage: ../../assets/image-asset-1.jpeg
+heroImage: ../../../public/images/image-asset-1.jpeg
 ---
 
 This is an article that I wrote for MSR’s blog. You can find it published on their site [here](https://cascadedesigns.com/blogs/msr-tips/winter-climbing-tips/).

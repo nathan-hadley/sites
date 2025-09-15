@@ -2,7 +2,7 @@
 title: Dark Side of the Valley
 description: A Yosemite trip focused on shady classics when El Cap plans melted in the heat.
 pubDate: 2017-11-15
-heroImage: ../../assets/HADLEY-2017-YOSEMITE-2-1.jpg
+heroImage: ../../../public/images/HADLEY-2017-YOSEMITE-2-1.jpg
 ---
 
 When you drive into Yosemite Valley, El Capitan is one of the first things that you see—one of the most beautiful hunks of stone on the planet, and the object of many climbers’ dreams. And this definitely goes for me. I too am irresistibly drawn to climbing’s Great Supermodel.

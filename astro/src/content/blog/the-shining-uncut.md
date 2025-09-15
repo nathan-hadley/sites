@@ -2,7 +2,7 @@
 title: The Shining Uncut
 description: One of the best climbs of my life on Mt. Louis — ledge-to-ledge crux, long day, perfect weather.
 pubDate: 2019-07-31
-heroImage: ../../assets/2019-HADLEY-THE-SHINING-12.jpg
+heroImage: ../../../public/images/2019-HADLEY-THE-SHINING-12.jpg
 ---
 
 Wow. What a route. More than I expected. The Shining Uncut will live on as one of the best climbs of my life. It had all the elements of a great climb. A big beautiful mountain. A straight line up the center of the biggest face. Challenging and sustained climbing. Good to the very end.

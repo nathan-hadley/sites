@@ -2,7 +2,7 @@
 title: "Blue Jeans Direct: The End of the Canadian Rockies Ticklist"
 description: Sending Blue Jeans Direct on Yamnuska and wrapping a dream Canadian Rockies list.
 pubDate: 2019-08-12
-heroImage: ../../assets/IMG_7478.jpg
+heroImage: ../../../public/images/IMG_7478.jpg
 ---
 
 Mike and I both sent Blue Jean Direct on Mt. Yamnuska last Wednesday, our second day on the route. Blue Jeans has become a somewhat well-known hard multipitch route, one I’ve known about and wanted to do for a while. When it first went up at 5.13b, 7 pitches, in 2010, it was the hardest multipitch route in the Canadian Rockies. Since then, a handful of harder routes have gone up, including Sonnie Trotter’s variation of Blue Jeans, “Blue Jeans Direct.” Sonnie’s variation replaces the 5th pitch of Blue Jeans with a harder, more direct variation. It’s a short pitch that basically dumbs down to a fun V9/10 boulder through an overhang. Sonnie called it 5.14a.
