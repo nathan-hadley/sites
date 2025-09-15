@@ -1,5 +1,5 @@
 ---
-title: Vanishing Point 2.0: A Classic Route Modernized
+title: "Vanishing Point 2.0: A Classic Route Modernized"
 description: Revisiting Dolomite Tower, modernizing Vanishing Point, and thorough approach beta.
 pubDate: 2020-09-04
 heroImage: ../../assets/2020-HADLEY-Mt-Baring-in-the-Clouds.jpg

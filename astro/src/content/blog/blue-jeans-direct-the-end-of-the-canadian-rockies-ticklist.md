@@ -1,5 +1,5 @@
 ---
-title: Blue Jeans Direct: The End of the Canadian Rockies Ticklist
+title: "Blue Jeans Direct: The End of the Canadian Rockies Ticklist"
 description: Sending Blue Jeans Direct on Yamnuska and wrapping a dream Canadian Rockies list.
 pubDate: 2019-08-12
 heroImage: ../../assets/IMG_7478.jpg

@@ -1,5 +1,5 @@
 ---
-title: Seeing Circuits: an Interview with the Bouldering Project
+title: "Seeing Circuits: an Interview with the Bouldering Project"
 description: A discussion on circuits and route design with the Bouldering Project.
 pubDate: 2022-05-10
 heroImage: ../../assets/SBP_DTTB_Burton_Routesetters__050.jpg
