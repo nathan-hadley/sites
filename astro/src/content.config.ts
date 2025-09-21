@@ -16,4 +16,18 @@ const stories = defineCollection({
     }),
 });
 
-export const collections = { stories };
+const software = defineCollection({
+  // Load Markdown and MDX files in the `src/content/software/` directory.
+  loader: glob({ base: './src/content/software', pattern: '**/*.{md,mdx}' }),
+  // Use the same schema as stories
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      description: z.string(),
+      pubDate: z.coerce.date(),
+      updatedDate: z.coerce.date().optional(),
+      heroImage: image().optional(),
+    }),
+});
+
+export const collections = { stories, software };

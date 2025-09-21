@@ -13,6 +13,11 @@ const className = Astro.props.class ?? '';
       >stories</a
     >
     <a
+      href="/software"
+      class={`font-bold hover:text-black ${isActive('/software') ? 'text-black' : 'text-gray-600'}`}
+      >software</a
+    >
+    <a
       href="/photos"
       class={`font-bold hover:text-black ${isActive('/photos') ? 'text-black' : 'text-gray-600'}`}
       >photos</a

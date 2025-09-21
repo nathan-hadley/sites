@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import SoftwareList from '../../components/SoftwareList.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+
+const posts = (await getCollection('software')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<SiteLayout
+  title={SITE_TITLE}
+  description={SITE_DESCRIPTION}
+>
+  <SoftwareList posts={posts} />
+</SiteLayout>
+
+

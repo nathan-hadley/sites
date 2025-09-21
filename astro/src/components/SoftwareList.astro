@@ -1,0 +1,44 @@
+---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import FormattedDate from './FormattedDate.astro';
+
+interface Props {
+  posts: CollectionEntry<'software'>[];
+}
+const { posts } = Astro.props as Props;
+---
+
+<section>
+  <ul class="flex flex-wrap gap-8 list-none m-0 p-0">
+    {
+      posts.map((post) => (
+        <li class="w-full md:w-[calc(50%-1rem)]">
+          <a
+            class="block no-underline"
+            href={`/software/${post.id}/`}
+          >
+            {post.data.heroImage && (
+              <div class="relative w-full rounded-xl overflow-hidden shadow aspect-[4/3]">
+                <Image
+                  width={800}
+                  height={600}
+                  src={post.data.heroImage}
+                  alt=""
+                  class="absolute inset-0 h-full w-full object-cover bg-white rounded-xl"
+                />
+              </div>
+            )}
+            <h4 class="m-0 text-black leading-tight">{post.data.title}</h4>
+            <p class="m-0 text-neutral-500 text-sm">
+              <FormattedDate date={post.data.pubDate} />
+            </p>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+  
+</section>
+
+
