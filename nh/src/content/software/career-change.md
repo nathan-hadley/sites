@@ -24,5 +24,3 @@ Juggling my full-time role at SBP, I completed a Computer Science program at Sea
 Reflecting on my professional path, from environmental science to route setting to software engineering, I realize each shift has been a crucial part of my development. Despite their apparent differences, each field embodies a shared essence – the art of building, problem-solving, and creativity.
 
 My journey from route setting to software engineering has been unexpected yet gratifying. As I continue on this path, I am enthusiastic about harnessing my skills to make a positive difference in the world.
-
-

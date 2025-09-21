@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Home" image="/images/budding-plant-2.png">
+  <div class="space-y-8">
+    <section class="bg-[var(--color-light-tan)] py-16 text-center">
+      <h1 class="text-4xl font-semibold">
+        Creating space for healing & restoration
+      </h1>
+      <p class="mt-2 text-lg">Psychotherapy for adults in Washington State</p>
+    </section>
+    <div class="mx-auto max-w-3xl">
+      <img
+        src="/images/budding-plant-2.png"
+        alt="Budding plant"
+        class="h-auto w-full"
+      />
+    </div>
+    <section
+      class="mx-auto grid max-w-5xl items-center gap-8 py-16 md:grid-cols-2 bg-[var(--color-light-tan)]"
+    >
+      <div>
+        <h2 class="text-2xl font-semibold">
+          Integrative psychotherapy for healing & learning new ways of living:
+        </h2>
+        <p class="mt-3">
+          Using relationship and therapeutic practices to help you turn towards
+          what has been painful to be with, and to encounter your goodness.
+        </p>
+      </div>
+      <div class="hidden md:block">
+        <img
+          src="/images/budding-plant.jpeg"
+          alt="Budding plant"
+          class="h-auto w-full rounded"
+        />
+      </div>
+    </section>
+  </div>
+</BaseLayout>

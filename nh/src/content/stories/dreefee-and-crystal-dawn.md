@@ -41,5 +41,3 @@ Crystal Dawn follows a crazy line through some huge roofs midway up, with the tw
 _Crystal Dawn Line_
 
 The rock in Red Rocks can be beautiful but also terribly scary, with loose sandy blocks and long runouts. Because of a bolting ban, many of these routes are not protected as well as they could be. I was often scared doing a completely unnecessary runout on holds that could break, and some of the gear I placed didn't feel as secure as it should. As I will soon be a dad (!!), my tolerance for this kind of risk is pretty low. That said, these two routes stand out as a couple of the best hard multi-pitch routes in North America.
-
-

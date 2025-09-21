@@ -1,0 +1,29 @@
+---
+import NavLink from "./NavLink.astro";
+---
+
+<header
+  class="flex w-full items-center justify-center px-5 py-6 sm:justify-between"
+>
+  <div class="hidden text-xl font-bold sm:block">
+    <a href="/" class="hover:opacity-80">Liz Hadley Therapy</a>
+  </div>
+  <nav>
+    <ul class="flex items-center gap-6">
+      <li class="sm:hidden">
+        <NavLink href="/" label="Home" />
+      </li>
+      <li><NavLink href="/about" label="About" /></li>
+      <li><NavLink href="/focus-areas" label="Focus Areas" /></li>
+      <li><NavLink href="/faq" label="FAQs" /></li>
+      <li><NavLink href="/resources" label="Resources" /></li>
+    </ul>
+  </nav>
+  <div class="hidden sm:block">
+    <a
+      href="/contact"
+      class="inline-block rounded bg-[var(--color-font)] px-4 py-2 text-[var(--color-white)] hover:opacity-90"
+      >Contact</a
+    >
+  </div>
+</header>
