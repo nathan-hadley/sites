@@ -19,13 +19,15 @@ const { posts } = Astro.props as Props;
             href={`/stories/${post.id}/`}
           >
             {post.data.heroImage && (
-              <Image
-                width={800}
-                height={600}
-                src={post.data.heroImage}
-                alt=""
-                class="rounded-xl"
-              />
+              <div class="relative w-full rounded-xl overflow-hidden shadow aspect-[4/3]">
+                <Image
+                  width={800}
+                  height={600}
+                  src={post.data.heroImage}
+                  alt=""
+                  class="absolute inset-0 h-full w-full object-cover bg-white rounded-xl"
+                />
+              </div>
             )}
             <h4 class="m-0 text-black leading-tight">{post.data.title}</h4>
             <p class="m-0 text-neutral-500 text-sm">
