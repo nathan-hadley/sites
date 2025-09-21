@@ -1,5 +1,5 @@
 ---
-title: "Vanishing Point 2.0: A Classic Route Modernized"
+title: 'Vanishing Point 2.0: A Classic Route Modernized'
 description: Revisiting Dolomite Tower, modernizing Vanishing Point, and thorough approach beta.
 pubDate: 2020-09-04
 heroImage: ../../../public/images/2020-HADLEY-Mt-Baring-in-the-Clouds.jpg
@@ -26,13 +26,13 @@ We made it up the rest of the approach slabs, which included climbing through an
 The climbing on Vanishing Point was mostly uneventful compared to the approach. The third runout was still scary, and the flare a little wet and desperate. We were able to easily climb around the section of roof that had fallen off on pitch 5. The eighth pitch was also still scary. The death flake on pitch 9 is still on the wall. By the time we got to the 5.12 pitch out the huge roof (pitch 11), we barely had enough left in the tank to get through it. Mike and I both didn’t fall, but we felt like we had to fight for it. We were 15 hours car-to-car, pretty reasonable if you’re trying to free climb every pitch. It’s a big climb.
 
 ![Pitch 3 flare](/images/2020-HADLEY-Vanishing-Point-Pitch-3.jpg)
-_Mike on the pitch 3 flare (5.11+)._ 
+_Mike on the pitch 3 flare (5.11+)._
 
 ![Pitch 6](/images/2020-HADLEY-Vanishing-Point-Pitch-6.jpg)
-_Pitch 6 (5.11+)._ 
+_Pitch 6 (5.11+)._
 
 ![Huge roof](/images/2020-HADLEY-Vanishing-Point-Pitch-10.jpg)
-_Mike starting out the huge roof on pitch 10 (5.11)._ 
+_Mike starting out the huge roof on pitch 10 (5.11)._
 
 I had been on the route before so I was happy to send, but Mike onsighted, which hadn’t been done. I think we might have been the 3rd and 4th ascents of the route after Brian Burdo (FA, 1998) and Ben Gilkison (2012). I’m really curious if anyone else climbed it, let alone sent, between 1998 and 2012.
 
@@ -67,7 +67,7 @@ _Looking back across the boulder field. The main trail is just in those trees._
 5. Traverse boulder field until under some large trees and a open wash should appear.
 
 ![Looking up the wash](/images/IMG_20200825_090924.jpg)
-_Looking up the wash (photo Luke Stefurak)._ 
+_Looking up the wash (photo Luke Stefurak)._
 
 6. Climb wash to a steep, chossy, dirty waterfall. Climb around right side, staying out of bushes (exposed).
 
@@ -92,7 +92,7 @@ _Looking up at the slabs from the top of the forested rib. You must descend into
 10. Descend into gulley. Climb gulley up and over a low 5th step with a fixed line attached to a bolt.
 
 ![Low 5th step](/images/IMG_20200825_151604.jpg)
-_The low 5th step in the gully (photo Luke Stefurak)._ 
+_The low 5th step in the gully (photo Luke Stefurak)._
 
 ![Looking down the gully](/images/IMG_8539.jpg)
 _Looking down the gully from the top of the low 5th step. The top of the forested rib is in view._
@@ -100,7 +100,7 @@ _Looking down the gully from the top of the low 5th step. The top of the foreste
 11. Continue up about 50m to where you need to rope up. You should see Burdo’s old bolt and a newer looking bolt to the left. Go left. Climbing straight up on Burdo’s old bolted slab line is possible late season (it’s a waterfall early season), but it’s harder and might require putting on climbing shoes!
 
 ![Approach slabs bolt](/images/Dolomite-Tower-Approach-Slabs-2.jpg)
-_There is a bolt at the “X” now. Should be easy to spot from the gully (photo Luke Stefurak)._ 
+_There is a bolt at the “X” now. Should be easy to spot from the gully (photo Luke Stefurak)._
 
 12. Climb left on ledges 10-15m and then up/right at the 2nd bolt. Climb past a 3rd bolt to a rap anchor (35m).
 13. Continue up and right on easy slabs passing 3 bolts to a large ledge with a rap anchor (another 35m).
@@ -117,7 +117,7 @@ _After the ledge traverse, this is the first of 3 pitches (photo Luke Stefurak).
 16. Continue up right side of gully (natural pro) to another rap anchor (35m).
 
 ![Second pitch after ledge](/images/IMG_20200825_130228.jpg)
-_2nd pitch after from the ledge (photo Luke Stefurak)._ 
+_2nd pitch after from the ledge (photo Luke Stefurak)._
 
 17. Climb past old bolts on the 5.9 crux of the approach and up to an old anchor with a newer bolt beside it (30m).
 
@@ -127,5 +127,3 @@ _3rd pitch from the ledge (photo Luke Stefurak). This is the crux of the approac
 18. Unrope and scramble up and left to the base of the tower. Going left will lead you past some 4th class and an old Burdo anchor (maybe stay roped up for this option). Going straight (towards the wall) and then left will lead you to a a point where you can either climb dirt and trees or bushwhack around to the left to reach the base of the route. There’s broad ledge to relax on below the route.
 
 If you nail the approach with this excellent beta, it should take about 3 hours to get to the base of the tower. There’s broad ledge to relax on below the route. If you walk along the wall left of the start of Vanishing Point, you should be able to find running water through mid-July.
-
-

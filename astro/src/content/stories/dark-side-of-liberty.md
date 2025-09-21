@@ -28,5 +28,3 @@ _SJ on the 5th pitch. Photo Austin Siadak._
 
 ![Final steep 5.11](/images/IMG_7513.jpg)
 _Blake Herrington on the final steep 5.11 pitch._
-
-

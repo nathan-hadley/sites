@@ -10,5 +10,3 @@ Working and sending Scarface has bookended a series of injury and health issues 
 The route is legandary—the second 5.14 in America and the first established by an American. And the climbing is beautiful. It’s nice to finally see it through though. The day I sent I knew it was finally right.
 
 ![Approach slabs](/images/Dolomite-Tower-Approach-Slabs.jpg)
-
-

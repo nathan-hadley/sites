@@ -48,5 +48,3 @@ _Moody day on Middle Cathedral._
 
 ![Half Dome](/images/HADLEY-2017-YOSEMITE-8.jpg)
 _Half Dome._
-
-

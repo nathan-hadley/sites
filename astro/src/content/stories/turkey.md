@@ -23,5 +23,3 @@ Liz also had a good trip, sending her second 5.11 (on her second try, which mean
 
 ![Antalya street food](/images/2019-TURKEY-3.jpg)
 _Teenage girls sharing stuffed mussels in Antalya._
-
-

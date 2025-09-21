@@ -1,19 +1,26 @@
 ---
-const isActive = (href: string) => Astro.url.pathname === href || Astro.url.pathname.startsWith(href + '/');
+const isActive = (href: string) =>
+  Astro.url.pathname === href || Astro.url.pathname.startsWith(href + '/');
 const className = Astro.props.class ?? '';
 ---
 
-<div class={`p-4 ${className}`}>
-	<h2 class="text-3xl font-bold pb-4 font-[Jost,serif]">
-		Nathan Hadley
-	</h2>
-	<div class="w-full flex flex-col gap-2">
-		<a href="/blog" class={`font-bold hover:text-black ${isActive('/blog') ? 'text-black' : 'text-gray-600'}`}>stories</a>
-		<a href="/blog" class={`font-bold hover:text-black ${isActive('/blog') ? 'text-black' : 'text-gray-600'}`}>software</a>
-		<a href="/photos" class={`font-bold hover:text-black ${isActive('/photos') ? 'text-black' : 'text-gray-600'}`}>photos</a>
-		<a href="/about" class={`font-bold hover:text-black ${isActive('/about') ? 'text-black' : 'text-gray-600'}`}>about</a>
-		<a href="/snow" class={`font-bold hover:text-black ${isActive('/snow') ? 'text-black' : 'text-gray-600'}`}>snow</a>
-	</div>
+<div class={className}>
+  <h2 class="text-4xl font-bold pb-4 font-[Jost,serif] tracking-widest">Nathan Hadley</h2>
+  <div class="w-full flex flex-col gap-2">
+    <a
+      href="/stories"
+      class={`font-bold hover:text-black ${isActive('/stories') ? 'text-black' : 'text-gray-600'}`}
+      >stories</a
+    >
+    <a
+      href="/photos"
+      class={`font-bold hover:text-black ${isActive('/photos') ? 'text-black' : 'text-gray-600'}`}
+      >photos</a
+    >
+    <a
+      href="/about"
+      class={`font-bold hover:text-black ${isActive('/about') ? 'text-black' : 'text-gray-600'}`}
+      >about</a
+    >
+  </div>
 </div>
-
-

@@ -32,5 +32,3 @@ But persistence and teamwork can lead to important discovery and insight.
 With a few tweaks and tests, it may even build towards a revelation that fully connects mind, heart, and community.
 
 “This is right,” Hadley smiles, when that magical moment happens. “This is what we needed here.”
-
-

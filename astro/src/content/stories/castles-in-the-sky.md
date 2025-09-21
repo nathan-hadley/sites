@@ -34,5 +34,3 @@ To gain the ledge to start the route, look up beta for the approach to Eisenhowe
 The route finishes on the right side of the mountain and you can easily walk off the top if you want. We just rappelled.
 
 A comment on grade: this one might be granted a bit extra because of elements like rope drag and position. If the route was at the crag and rope weight wasn’t an issue, it would probably be just 5.13d. Have fun!
-
-

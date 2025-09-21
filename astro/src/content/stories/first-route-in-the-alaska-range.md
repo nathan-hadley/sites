@@ -48,5 +48,3 @@ He was probably right, but even suspect protection gave me some peace of mind. A
 We weren’t going to try going around the cornice to the right. We were done. Our morale was gone. The weather was deteriorating. It was snowing and getting dark. It wasn’t fun anymore. We just wanted to get off safely, even though we were close to the summit. Instead of going back down our route, we down-climbed a 2500-foot couloir and hoped it wouldn’t slide. We stayed rope together so we could find each other if it did. Eventually we were down and back to our tents after 12 hours of non-stop climbing. A nice warm-up, we thought. Welcome to the Alaska Range. Now, onto the real climbing…
 
 ![Above basecamp](/images/image-asset-15.jpeg)
-
-

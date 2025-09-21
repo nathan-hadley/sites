@@ -39,7 +39,7 @@ Back in town, we did more bouldering and trail running and religiously checked t
 _Josie trying to decide if she wants to go for it._
 
 ![Gato Negro](/images/2018-HADLEY-GATO-NEGRO.jpg)
-_Will on 'Gato Negro.'_ 
+_Will on 'Gato Negro.'_
 
 Later that week we got a small blip of good weather—not enough time to spend a night in high camp—so we would have to get in and out of the mountains Chaltén-to-Chaltén. Andy and I decided to team up to do a quick climb of Guillaumet, a mountain neither of us had climbed and one of the most accessible for a town-to-town mission. Andy is the owner of the climbing gym I routeset for and super talented athlete. Him and Colin Haley set the car-to-car speed record of Fitz Roy and, back in Washington, Mt. Stuart's North Ridge. I was excited to see if I could keep up!
 
@@ -74,5 +74,3 @@ _Austin on one of the only 5.10 pitches. Splitter hands for 200 feet!_
 
 ![Chaltén and Fitz](/images/P5490182.jpg)
 _Chaltén below a shrouded Fitz Roy._
-
-

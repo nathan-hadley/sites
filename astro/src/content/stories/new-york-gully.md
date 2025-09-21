@@ -20,5 +20,3 @@ I led the easy first pitch, probably 50-60 meters, placing one cam. Travis led t
 ![Crux ramp](/images/image-asset-8.jpeg)
 
 The climbing on the third pitch was steep and interesting, involving all kinds of frozen stuff to poke, and a bit of rock grabbing as well. Travis again took the fourth pitch as the ramp continued rightward up one last steep section to easy climbing taking us to the base of the route’s crux pitch, “the 5.8 crack.” That doesn’t sound intimidating, but climbing a crack covered in snow and ice while wearing ski boots isn’t easy. I took this pitch, so I wouldn’t feel like a total wimp, pulling on a couple pieces and then tiptoeing above small cams in icy cracks to the top of the route. Travis followed by free climbing the pitch, saying it was “actually kinda hard.” We exchanged high-fives, happy that we finally got to climb the route. We unroped and carefully walked off to the right and descended back down to our skis.
-
-

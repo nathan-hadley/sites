@@ -1,10 +1,98 @@
 ---
 import SiteLayout from '../layouts/SiteLayout.astro';
+const photos: string[] = [
+  '2017-HADLEY-JTREE-STEMGEM-SUNSET.jpg',
+  '2018-HADLEY-AGUJA-POLLONE.jpg',
+  '2015-HADLEY-GOTHIC-BASIN-CAMP.jpg',
+  '2015-HADLEY-ENCHANTMENTS-TENT-AND-LARCHES.jpg',
+  '2016-HADLEY-DENALI-2.jpg',
+  '2016-HADLEY-STUART-REESE-ISLANDS-IN-SKY.jpg',
+  '2016-HADLEY-BLAKE-SUMMIT-LIBERTY-CRACK.jpg',
+  '2018-HADLEY-FITZ-AND-POINCENOT-SUNRISE.jpg',
+  '2017-HADLEY-GUNSIGHT-RANGE.jpg',
+  '2017-HADLEY-CHAIR-DESCENT.jpg',
+  '2015-HADLEY-PRUSIK-PEAK-APPROACH.jpg',
+  '2015-HADLEY-PRUSIK-LARCHES.jpeg',
+  '2016-HADLEY-PTARMIGAN.jpeg',
+  '2015-HADLEY-EAST-LAKE-REFLECTION.jpg',
+  '2015-HADLEY-INDEX-BOULDERING.jpeg',
+  '2015-HADLEY-INDEX-BOULDERING-2.jpeg',
+  '2017-HADLEY-JTREE-HEADSTONE-2.jpg',
+  '2016-HADLEY-DENALI.jpeg',
+  '2016-HADLEY-RAINIER-EMMONS.jpg',
+  '2018-HADLEY-POINCENOT-DESCENT-TORRES.jpg',
+  '2015-HADLEY-MATT-FREE-SOLO.jpg',
+  '2017-HADLEY-VINI-MIND-CONTROL.jpg',
+  '2018-HADLEY-MERMOZ-RED-PILLAR.jpg',
+  '2016-HADLEY-RAINIER-EMMONS-2.jpg',
+  '2016-HADLEY-CARDS-IN-TENT.jpg',
+  '2017-HADLEY-JOSHUA-TREE-SUNSET.jpg',
+  '2017-HADLEY-JTREE-BOXERS-1.jpg',
+];
 ---
 
-<SiteLayout title="Photos" description="Photos">
-	<h2>Photos</h2>
-	<p>Coming soon.</p>
+<SiteLayout
+  title="Photos"
+  description="A curated gallery of images."
+>
+  <!-- Sidebar controls -->
+  <Fragment slot="sidebar">
+    <div class="flex items-center gap-1">
+      <button
+        type="button"
+        data-prev
+        class="text-sm text-gray-700 hover:text-black"
+        >prev</button
+      >
+      <span>/</span>
+      <button
+        type="button"
+        data-next
+        class="text-sm text-gray-700 hover:text-black"
+        >next</button
+      >
+    </div>
+  </Fragment>
+
+  <!-- Slideshow area (fixed height) -->
+  <div
+    class="relative w-full h-[80vh] overflow-hidden bg-white rounded"
+    data-slideshow
+  >
+    {
+      photos.map((filename, index) => (
+        <div
+          class={`w-full h-full ${index === 0 ? 'block' : 'hidden'}`}
+          data-slide
+        >
+          <img
+            src={`/images/${filename}`}
+            alt={filename}
+            loading="lazy"
+            class="h-full max-h-full w-auto max-w-full object-contain mx-auto select-none"
+          />
+        </div>
+      ))
+    }
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const root = document.querySelector('[data-slideshow]') as HTMLElement | null;
+      if (!root) return;
+      const slides = Array.from(root.querySelectorAll('[data-slide]')) as HTMLElement[];
+      const prev = document.querySelector('[data-prev]') as HTMLButtonElement | null;
+      const next = document.querySelector('[data-next]') as HTMLButtonElement | null;
+      let current = 0;
+      function show(i: number) {
+        slides[current].classList.add('hidden');
+        slides[current].classList.remove('block');
+        current = (i + slides.length) % slides.length;
+        slides[current].classList.remove('hidden');
+        slides[current].classList.add('block');
+      }
+      prev && prev.addEventListener('click', () => show(current - 1));
+      next && next.addEventListener('click', () => show(current + 1));
+    });
+  </script>
 </SiteLayout>
-
-

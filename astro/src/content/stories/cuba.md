@@ -36,5 +36,3 @@ _Luke navigating the wild stalactites of Techo del Mundo._
 
 ![Tito adding a route](/images/2020-HADLEY-CUBA-58.jpg)
 _Tito, one of the main local developers, adding a new route at Techo del Mundo._
-
-

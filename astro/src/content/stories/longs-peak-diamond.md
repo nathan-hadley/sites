@@ -36,5 +36,3 @@ _Mike on the first 5.13 pitch of Gambler’s Fallacy._
 
 ![No-hands rest](/images/IMG_9650.jpeg)
 _Mike finding a no-hands rest on the second 5.13 pitch of Gambler’s Fallacy._
-
-

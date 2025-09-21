@@ -1,5 +1,5 @@
 ---
-title: "Blue Jeans Direct: The End of the Canadian Rockies Ticklist"
+title: 'Blue Jeans Direct: The End of the Canadian Rockies Ticklist'
 description: Sending Blue Jeans Direct on Yamnuska and wrapping a dream Canadian Rockies list.
 pubDate: 2019-08-12
 heroImage: ../../../public/images/IMG_7478.jpg
@@ -25,5 +25,3 @@ We were climbing on the route early August, and the route was in the shade by 4:
 
 ![Yamnuska approach](/images/IMG_7478.jpg)
 _Mike looking over the edge of Yamnuska, where Blue Jeans tops out._
-
-

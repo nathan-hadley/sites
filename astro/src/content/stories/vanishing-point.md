@@ -20,5 +20,3 @@ After many, many gloriously exposed, hard, sustained, overhanging, and nerve-num
 I talked to Blake afterward about pitch 5, and he dug up a picture of the roof from when he climbed it. Sure enough, as we suspected, a serious chunk of the roof is now gone. The route as they climbed it is no longer possible/recommended/safe. If it weren't for the mystery bolts out left, the route would not safely go. I have no idea how hard the climbing there is though, but probably between 5.11+ and 5.12+, so it is likely another crux. Below is a marked-up copy of Blake's topo. Do it!
 
 ![Marked topo](/images/IMG_5894.PNG)
-
-

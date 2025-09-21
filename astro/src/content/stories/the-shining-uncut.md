@@ -67,5 +67,3 @@ _Me starting our second rappel down the headwall._
 
 ![Down-scrambling in the dark](/images/2019-HADLEY-THE-SHINING-14.jpg)
 _Mike down scrambling in the dark._
-
-

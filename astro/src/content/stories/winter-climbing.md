@@ -45,12 +45,10 @@ I’ve listed a few examples climbs to get the wheels turning. There is lots of 
 
 ### 4. Gather the right clothing.
 
-... 
+...
 
 ![Winter climbing 5](/images/image-asset-5.jpeg)
 
 ### 6. Go for it!
 
 Start small and find the right challenge for you. If you want, take a course. Many guiding companies offer winter climbing courses in New England, the Rockies, Sierras, and Cascades. Try to find opportunities to learn new skills like ice climbing and backcountry skiing that you can bring to the mountains in winters to come. **Check the weather.** Check noaa.gov and use the spot forecasting function. Mountain-forcast.com is also helpful. Call the local ranger station to ask about up-to-date conditions if you can. Most importantly, get out there, make wise decisions, and enjoy the beautiful transformation winter brings to the mountains.
-
-

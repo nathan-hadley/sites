@@ -3,28 +3,37 @@ import { Image } from 'astro:assets';
 import type { CollectionEntry } from 'astro:content';
 import FormattedDate from './FormattedDate.astro';
 
-interface Props { posts: CollectionEntry<'blog'>[] }
+interface Props {
+  posts: CollectionEntry<'stories'>[];
+}
 const { posts } = Astro.props as Props;
 ---
 
 <section>
-	<ul class="flex flex-wrap gap-8 list-none m-0 p-0">
-		{
-			posts.map((post) => (
-				<li class="w-full md:w-[calc(50%-1rem)]">
-					<a class="block no-underline" href={`/blog/${post.id}/`}>
-						{post.data.heroImage && (
-							<Image width={720} height={360} src={post.data.heroImage} alt="" class="rounded-xl" />
-						)}
-						<h4 class="m-0 text-black leading-tight">{post.data.title}</h4>
-						<p class="m-0 text-neutral-500 text-sm">
-							<FormattedDate date={post.data.pubDate} />
-						</p>
-					</a>
-				</li>
-			))
-		}
-	</ul>
+  <ul class="flex flex-wrap gap-8 list-none m-0 p-0">
+    {
+      posts.map((post) => (
+        <li class="w-full md:w-[calc(50%-1rem)]">
+          <a
+            class="block no-underline"
+            href={`/stories/${post.id}/`}
+          >
+            {post.data.heroImage && (
+              <Image
+                width={800}
+                height={600}
+                src={post.data.heroImage}
+                alt=""
+                class="rounded-xl"
+              />
+            )}
+            <h4 class="m-0 text-black leading-tight">{post.data.title}</h4>
+            <p class="m-0 text-neutral-500 text-sm">
+              <FormattedDate date={post.data.pubDate} />
+            </p>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
 </section>
-
-

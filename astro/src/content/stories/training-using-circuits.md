@@ -9,8 +9,6 @@ A circuit is a group of boulders designed to create a certain experience. In a c
 
 Circuits were invented in the early 1900s in Fontainebleau, France, as a way to train for mountain climbing. Transportation to the mountains was not as quick and easy as it is now so the Parisian mountaineers needed a way to train locally. Problem was that they only had access to little boulders! Nobody “bouldered” like we do today—it was all about getting to the summits of high mountains back then. Climbing boulders was silly and pointless until someone discovered that they could be useful for training. They figured out that using a marked group of boulders, usually 40 to 60 in length, climbers could move through them and roughly replicate the sustained effort required to climb a mountain.
 
-... 
+...
 
 [Circuit Assessment PDF](/images/Circuit-Assessment.pdf)
-
-

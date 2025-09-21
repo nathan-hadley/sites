@@ -26,5 +26,3 @@ I was not even halfway through our four week trip and had ticked three of my fou
 ![On The Path 1](/images/2019-YCBRAND-NUSSE-NATHAN-HADLEY-ON-THE-PATH-1.jpg)
 
 ![On The Path 4](/images/2019-YCBRAND-NUSSE-NATHAN-HADLEY-ON-THE-PATH-4.jpg)
-
-

@@ -58,9 +58,7 @@ The next day we chose a shorter objective—the classic Sunshine Crack on Snowpa
 The first few pitches were wet, including an offwidth waterfall. The upper two thirds of the route was dry though and the climbing was amazing—one of the highest quality mostly 5.10 routes I have ever climbed. We set the pace and our Chilean friends kept up. We descended together and Mike and I booked our way out of the Bugaboos. It had been a fun couple days of climbing in one of the most beautiful places I’ve ever been.
 
 ![Chileans on last pitch](/images/2019-HADLEY-BUGABOOS-15.jpg)
-_The Chileans on the last pitch of Sunshine Crack (photo Mike)._ 
+_The Chileans on the last pitch of Sunshine Crack (photo Mike)._
 
 ![Snowpatch Spire](/images/2019-HADLEY-BUGABOOS-3.jpg)
 _Snowpatch Spire._
-
-
