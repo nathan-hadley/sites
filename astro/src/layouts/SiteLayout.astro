@@ -1,6 +1,7 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
 import Sidebar from '../components/Sidebar.astro';
+import Header from '../components/Header.astro';
 interface Props {
   title: string;
   description: string;
@@ -17,8 +18,9 @@ const { title, description } = Astro.props as Props;
     />
   </head>
   <body class="min-h-screen">
-    <div class="flex flex-row gap-6 p-8">
-      <aside class="w-[200px] shrink-0 flex flex-col">
+    <Header />
+    <div class="flex flex-row gap-6 p-4 sm:p-8">
+      <aside class="hidden sm:flex w-[200px] shrink-0 flex-col">
         <Sidebar class="w-full" />
         <div class="mt-4">
           <slot name="sidebar" />

@@ -15,6 +15,7 @@
     "@astrojs/sitemap": "^3.5.1",
     "@tailwindcss/vite": "^4.1.13",
     "astro": "^5.13.7",
+    "flowbite": "^3.1.2",
     "sharp": "^0.34.3",
     "tailwindcss": "^4.1.13"
   },

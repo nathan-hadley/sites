@@ -1,0 +1,84 @@
+<header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-200 sm:hidden">
+  <div class="mx-auto max-w-[1200px] px-4 py-3 flex items-center justify-between">
+    <a
+      href="/"
+      class="text-xl font-bold tracking-widest font-[Jost,serif]"
+      >Nathan Hadley</a
+    >
+    <button
+      class="sm:hidden inline-flex items-center justify-center p-2 rounded hover:bg-gray-100"
+      aria-label="Open menu"
+      aria-controls="mobile-drawer"
+      data-drawer-target="mobile-drawer"
+      data-drawer-show="mobile-drawer"
+      data-drawer-placement="right"
+      data-drawer-backdrop="true"
+      type="button"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        class="h-6 w-6"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M4.5 6.75A.75.75 0 015.25 6h13.5a.75.75 0 010 1.5H5.25a.75.75 0 01-.75-.75zm0 10.5a.75.75 0 01.75-.75h13.5a.75.75 0 010 1.5H5.25a.75.75 0 01-.75-.75zm0-5.25a.75.75 0 01.75-.75h13.5a.75.75 0 010 1.5H5.25a.75.75 0 01-.75-.75z"
+          clip-rule="evenodd"
+        ></path>
+      </svg>
+    </button>
+  </div>
+
+  <div
+    id="mobile-drawer"
+    class="fixed top-0 right-0 z-50 h-screen w-72 max-w-[80vw] p-0 overflow-y-auto transition-transform translate-x-full bg-white shadow-xl border-l border-gray-200"
+    tabindex="-1"
+    aria-labelledby="mobile-drawer-label"
+  >
+    <div class="flex items-center justify-between px-4 py-3 border-b border-gray-200">
+      <span
+        id="mobile-drawer-label"
+        class="text-base font-semibold"
+        >menu</span
+      >
+      <button
+        class="p-2 rounded hover:bg-gray-100"
+        aria-label="Close menu"
+        data-drawer-hide="mobile-drawer"
+        aria-controls="mobile-drawer"
+        type="button"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="h-5 w-5"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 11-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+    </div>
+    <nav class="flex flex-col gap-4 px-4 py-4">
+      <a
+        href="/stories"
+        class="font-bold text-gray-700 hover:text-black"
+        >stories</a
+      >
+      <a
+        href="/photos"
+        class="font-bold text-gray-700 hover:text-black"
+        >photos</a
+      >
+      <a
+        href="/about"
+        class="font-bold text-gray-700 hover:text-black"
+        >about</a
+      >
+    </nav>
+  </div>
+</header>
