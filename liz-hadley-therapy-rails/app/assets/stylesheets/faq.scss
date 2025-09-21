@@ -1,0 +1,77 @@
+.faq-page {
+  margin: 30px 50px;
+
+  img {
+    width: 100%;
+  }
+
+  .fees-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    min-width: 500px;
+    padding: 60px 0;
+
+    .text-box {
+      width: 100%;
+      height: auto;
+      background-color: var(--color-light-tan);
+      padding: 20px;
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .img-container {
+      width: 70%;
+      height: 140%;
+      position: relative;
+      z-index: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      margin-left: -50px;
+
+      img {
+        margin: 0 auto;
+        width: auto;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+
+  .where-block {
+    padding: 20px;
+  }
+
+  .insurance-block {
+    background-color: var(--color-light-tan);
+    padding: 20px;
+  }
+
+  .expect-block {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .faq-page {
+    margin: 30px;
+
+    .fees-block {
+      min-width: auto;
+
+      .img-container {
+        display: none;
+
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.contact-page {
+  margin: 50px;
+  background-color: var(--color-light-tan);
+  padding: 20px;
+
+  h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-page {
+    margin: 30px 20px;
+  }
+}
