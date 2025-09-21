@@ -2,7 +2,7 @@
 title: Career Change
 description: From route setting to software engineering.
 pubDate: 2025-09-21
-heroImage: 
+heroImage: ../../../public/images/SBP_DTTB_Burton_Routesetters__050.jpg
 ---
 
 Since its inception, this website has reflected the different phases of my life. Initially, it was a professional platform for my photography work. Later, it evolved into a climbing blog, reflecting my lifelong passion and career as a route setter. Most recently, the site underwent a significant transformation when I reconstructed it from scratch using Ruby on Rails. This transformation mirrors my own professional journey, from route setting to software engineering.
