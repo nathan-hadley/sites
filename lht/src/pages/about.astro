@@ -8,7 +8,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   image="/images/liz-portrait.jpg"
 >
   <section class="mx-auto max-w-6xl px-4 py-12">
-    <div class="about-header-block mb-12 text-center bg-[var(--color-light-tan)]">
+    <div
+      class="about-header-block mb-12 bg-[var(--color-light-tan)] text-center"
+    >
       <h1 class="text-4xl font-bold">Liz Hadley, MA, LMHCA</h1>
       <h3 class="mt-3 text-lg">
         I am a mother, partner, sister, daughter, aunt, and friend. I am a
@@ -20,7 +22,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <img
           src="/images/liz-portrait.jpg"
           alt="Liz portrait"
-          class="w-full h-auto"
+          class="h-auto w-full"
         />
         <h3 class="mt-6 text-xl font-semibold">
           “What has been wounded in a relationship must be, after all, healed in
@@ -65,11 +67,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </div>
     <div class="about-block-2 mb-12 grid items-center gap-8 md:grid-cols-2">
       <div class="left-col-2">
-        <img
-          src="/images/buds.jpeg"
-          alt="Buds"
-          class="rounded w-full h-auto"
-        />
+        <img src="/images/buds.jpeg" alt="Buds" class="h-auto w-full rounded" />
       </div>
       <div class="right-col-2 prose prose-neutral max-w-none">
         <h2>Therapeutic Orientation:</h2>
@@ -127,7 +125,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <img
           src="/images/cairn.jpeg"
           alt="Cairn"
-          class="rounded w-full h-auto"
+          class="h-auto w-full rounded"
         />
       </div>
     </div>
