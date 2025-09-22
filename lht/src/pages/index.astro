@@ -3,9 +3,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout title="Home" image="/images/budding-plant-2.png">
-  <div class="not-prose space-y-8">
+  <div class="not-prose space-y-6">
     <section
-      class="bg-[var(--color-light-tan)] px-[10px] py-[50px] text-center"
+      class="bg-[var(--color-light-tan)] px-3 py-12 text-center"
     >
       <h1 class="text-4xl font-semibold">
         Creating space for healing & restoration
@@ -14,7 +14,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         Psychotherapy for adults in Washington State
       </p>
     </section>
-    <div class="py-[15px]"></div>
     <div class="w-full">
       <img
         src="/images/budding-plant-2.png"
@@ -23,12 +22,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
     </div>
     <section
-      class="mx-[50px] my-[30px] flex h-[500px] min-w-[500px] items-center justify-center max-[480px]:mx-[30px] max-[480px]:min-w-0"
+      class="mx-12 flex h-124 items-center justify-center"
     >
       <div
-        class="z-[1] flex h-[80%] w-[80%] flex-col items-center justify-center bg-[var(--color-light-tan)] p-[20px] text-center max-[480px]:w-full"
+        class="z-1 flex h-[80%] w-[80%] flex-col items-center justify-center bg-[var(--color-light-tan)] p-6 text-center"
       >
-        <h2 class="mt-0 text-2xl font-normal md:text-3xl">
+        <h2 class="mt-0 text-2xl font-normal">
           Integrative psychotherapy for healing & learning new ways of living:
         </h2>
         <p class="mt-3 italic">
@@ -37,13 +36,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         </p>
       </div>
       <div
-        class="relative z-0 ml-[-50px] flex h-full w-[80%] justify-center overflow-hidden max-[480px]:hidden"
+        class="relative z-0 ml-[-50px] flex h-full w-[80%] justify-center hidden sm:flex"
       >
         <img
           src="/images/budding-plant.jpeg"
           alt="Budding plant"
-          class="mx-auto h-full w-full object-contain"
-          loading="lazy"
+          class="h-full w-full object-cover"
         />
       </div>
     </section>
