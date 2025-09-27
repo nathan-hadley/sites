@@ -7,19 +7,18 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   description="Areas of therapeutic focus"
   image="/images/grass.jpeg"
 >
-  <section class="px-4">
-    <h2 class="text-3xl font-semibold">
+    <p class="text-3xl text-center text-semibold py-6">
       Integrative therapy for individual adults (18+) of all genders
-    </h2>
-    <div class="grid items-start gap-4 md:grid-cols-2">
-      <div class="img-container">
+    </p>
+    <div class="grid items-start gap-4 md:grid-cols-2 md:px-12">
+      <div class="relative z-0 flex justify-center self-center md:-mr-16 md:justify-end md:w-[120%]">
         <img
           src="/images/grass.jpeg"
           alt="Grass"
-          class="h-auto w-full rounded"
+          class="h-auto w-full"
         />
       </div>
-      <div class="bg-[var(--color-light-tan)] px-4">
+      <div class="relative z-10 bg-[var(--color-light-tan)] px-4">
         <h2>Areas of Focus</h2>
         <p>
           I support folxs navigating a wide range of life experiences. Some of
@@ -46,5 +45,4 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         </ul>
       </div>
     </div>
-  </section>
 </BaseLayout>
