@@ -1,4 +1,5 @@
 ---
+import HeaderBanner from "../components/HeaderBanner.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
@@ -7,30 +8,25 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   description="About Liz Hadley, MA, LMHCA"
   image="/images/liz-portrait.jpg"
 >
-  <section class="mx-auto max-w-6xl px-4 py-12">
-    <div
-      class="about-header-block mb-12 bg-[var(--color-light-tan)] text-center"
-    >
-      <h1 class="text-4xl font-bold">Liz Hadley, MA, LMHCA</h1>
-      <h3 class="mt-3 text-lg">
-        I am a mother, partner, sister, daughter, aunt, and friend. I am a
-        cisgender heterosexual White woman.
-      </h3>
-    </div>
-    <div class="about-block-1 mb-12 grid items-start gap-8 md:grid-cols-2">
-      <div class="left-col-1 text-center">
+  <div class="space-y-8 px-2">
+    <HeaderBanner
+      title="Liz Hadley, MA, LMHCA"
+      subtitle="I am a mother, partner, sister, daughter, aunt, and friend. I am a cisgender heterosexual White woman."
+    />
+    <div class="grid items-start gap-8 md:grid-cols-2">
+      <div class="text-center">
         <img
           src="/images/liz-portrait.jpg"
           alt="Liz portrait"
           class="h-auto w-full"
         />
         <h3 class="mt-6 text-xl font-semibold">
-          “What has been wounded in a relationship must be, after all, healed in
-          a relationship.”
+          What has been wounded in a relationship must be, after all, healed in
+          a relationship.
         </h3>
         <h4 class="text-neutral-600">— Annie Rogers</h4>
       </div>
-      <div class="right-col-1 prose prose-neutral max-w-none">
+      <div class="prose prose-neutral max-w-none self-start">
         <h2>How I work:</h2>
         <p>
           At the core of my therapeutic approach is my belief that we heal and
@@ -65,11 +61,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         </p>
       </div>
     </div>
-    <div class="about-block-2 mb-12 grid items-center gap-8 md:grid-cols-2">
-      <div class="left-col-2">
-        <img src="/images/buds.jpeg" alt="Buds" class="h-auto w-full rounded" />
-      </div>
-      <div class="right-col-2 prose prose-neutral max-w-none">
+    <div class="grid items-start gap-8 md:grid-cols-2">
+      <img src="/images/buds.jpeg" alt="Buds" class="h-auto w-full rounded" />
+      <div class="right-col-2 prose prose-neutral max-w-none self-start">
         <h2>Therapeutic Orientation:</h2>
         <p>
           My primary therapeutic approach is existential, humanistic,
@@ -84,8 +78,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         </p>
       </div>
     </div>
-    <div class="about-block-3 mb-12 grid items-start gap-8 md:grid-cols-2">
-      <div class="left-col-3 prose prose-neutral max-w-none">
+    <div class="grid items-start gap-8 md:grid-cols-2">
+      <div class="prose prose-neutral max-w-none self-start">
         <h2>Professional Journey:</h2>
         <p>
           Throughout my life, a guiding compass has been my commitment to
@@ -121,13 +115,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           whom I will cross paths: I am honored, and so eager to know you.
         </p>
       </div>
-      <div class="right-col-3">
-        <img
-          src="/images/cairn.jpeg"
-          alt="Cairn"
-          class="h-auto w-full rounded"
-        />
-      </div>
+      <img src="/images/cairn.jpeg" alt="Cairn" class="h-auto w-full rounded" />
     </div>
-  </section>
+  </div>
 </BaseLayout>

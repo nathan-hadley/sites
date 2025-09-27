@@ -54,7 +54,9 @@ const imageUrl = (() => {
   </head>
   <body class="flex min-h-screen flex-col">
     <Header />
-    <main class="prose prose-neutral max-w-none px-2">
+    <main
+      class="prose prose-neutral prose-img:my-0 prose-img:rounded max-w-none px-2"
+    >
       <slot />
     </main>
     {!hideFooterCta && <Footer />}

@@ -1,43 +1,42 @@
 ---
+import HeaderBanner from "../components/HeaderBanner.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout title="Home" image="/images/budding-plant-2.png">
-  <section class="bg-[var(--color-light-tan)] px-3 py-16 text-center rounded">
-    <h1 class="text-4xl font-semibold text-[var(--color-font)]">
-      Creating space for healing & restoration
-    </h1>
-    <h2 class="text-xl mt-0 mb-0 text-[var(--color-font)] italic">
-      Psychotherapy for adults in Washington State
-    </h2>
-  </section>
-  <div class="w-full">
-    <img
-      src="/images/budding-plant-2.png"
-      alt="Budding plant"
-      class="h-auto w-full rounded"
+  <div class="space-y-4">
+    <HeaderBanner
+      title="Creating space for healing & restoration"
+      subtitle="Psychotherapy for adults in Washington State"
     />
-  </div>
-  <section class="flex h-96 sm:h-124 px-6 sm:px-12 items-center justify-center">
-    <div
-      class="z-1 flex flex-col h-full sm:h-[80%] w-full sm:w-[80%] items-center justify-center bg-[var(--color-light-tan)] p-6 rounded"
-    >
-      <h2 class="mt-0 text-2xl md:text-3xl font-normal text-[var(--color-font)]">
-        Integrative psychotherapy for healing & learning new ways of living:
-      </h2>
-      <p class="mt-0 md:mt-6 text-xl text-[var(--color-font)] italic">
-        Using relationship and therapeutic practices to help you turn towards
-        what has been painful to be with, and to encounter your goodness.
-      </p>
-    </div>
-    <div
-      class="z-0 -ml-12 -mt-16 flex hidden h-full justify-center sm:flex"
-    >
+    <div class="w-full">
       <img
-        src="/images/budding-plant.jpeg"
+        src="/images/budding-plant-2.png"
         alt="Budding plant"
-        class="h-full w-full object-cover rounded"
+        class="h-auto w-full"
       />
     </div>
-  </section>
+    <div class="flex h-96 items-center justify-center px-6 sm:h-124 sm:px-12">
+      <div
+        class="z-1 flex h-full w-full flex-col items-center justify-center rounded bg-[var(--color-light-tan)] p-6 sm:h-[80%] sm:w-[80%]"
+      >
+        <h2
+          class="mt-0 text-2xl font-normal text-[var(--color-font)] md:text-3xl"
+        >
+          Integrative psychotherapy for healing & learning new ways of living:
+        </h2>
+        <p class="mt-0 text-xl text-[var(--color-font)] italic md:mt-6">
+          Using relationship and therapeutic practices to help you turn towards
+          what has been painful to be with, and to encounter your goodness.
+        </p>
+      </div>
+      <div class="z-0 -ml-12 flex hidden h-full justify-center sm:flex">
+        <img
+          src="/images/budding-plant.jpeg"
+          alt="Budding plant"
+          class="h-full w-full object-cover"
+        />
+      </div>
+    </div>
+  </div>
 </BaseLayout>
