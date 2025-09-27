@@ -7,9 +7,9 @@ interface Props {
 const { imageSrc, imageAlt } = Astro.props as Props;
 ---
 
-<div class="flex h-96 items-center justify-center px-6 sm:h-124 sm:px-12">
+<div class="flex h-96 items-center justify-center sm:h-124 sm:px-12">
   <div
-    class="z-1 flex h-full w-full flex-col items-center justify-center rounded bg-[var(--color-light-tan)] p-6 sm:h-[80%] sm:w-[80%]"
+    class="z-1 flex h-full w-full flex-col items-center justify-center rounded bg-[var(--color-light-tan)] p-4 sm:h-[80%] sm:w-[80%]"
   >
     <slot />
   </div>
