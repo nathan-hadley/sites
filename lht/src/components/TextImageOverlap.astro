@@ -1,0 +1,19 @@
+---
+interface Props {
+  imageSrc: string;
+  imageAlt: string;
+}
+
+const { imageSrc, imageAlt } = Astro.props as Props;
+---
+
+<div class="flex h-96 items-center justify-center px-6 sm:h-124 sm:px-12">
+  <div
+    class="z-1 flex h-full w-full flex-col items-center justify-center rounded bg-[var(--color-light-tan)] p-6 sm:h-[80%] sm:w-[80%]"
+  >
+    <slot />
+  </div>
+  <div class="z-0 -ml-12 flex hidden h-full justify-center sm:flex">
+    <img src={imageSrc} alt={imageAlt} class="h-full w-full object-cover" />
+  </div>
+</div>

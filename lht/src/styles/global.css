@@ -23,3 +23,8 @@ html {
 body {
   background: var(--color-background);
 }
+
+.prose {
+  --tw-prose-body: var(--color-font);
+  --tw-prose-headings: var(--color-font);
+}

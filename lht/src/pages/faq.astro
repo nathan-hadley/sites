@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import TextImageOverlap from "../components/TextImageOverlap.astro";
 ---
 
 <BaseLayout
@@ -7,39 +8,33 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   description="Fees, where/how we meet, insurance, what to expect"
   image="/images/flowers.png"
 >
-  <section class="faq-page prose prose-neutral mx-auto max-w-6xl px-4 py-12">
-    <div class="fees-block grid items-start gap-8 md:grid-cols-2">
-      <div class="text-box">
-        <h2>Fees</h2>
-        <p>My fee is $130 per session.</p>
-        <p>
-          I offer a limited number of sliding scale slots to individuals for
-          whom finances pose a barrier to accessing therapy. If you are seeking
-          an adjusted fee, please bring this to my attention during our
-          consultation call.
-        </p>
-      </div>
-      <div class="img-container">
-        <img
-          src="/images/tiny-budding-pants.jpeg"
-          alt="Tiny budding plants"
-          class="rounded"
-          width="900"
-          height="600"
-          loading="lazy"
-        />
-      </div>
-    </div>
-    <div class="where-block">
-      <h2>Where &amp; How We Meet</h2>
+  <div class="max-w-6xl space-y-4 px-4">
+    <!-- Fees -->
+    <TextImageOverlap
+      imageSrc="/images/tiny-budding-pants.jpeg"
+      imageAlt="Tiny budding plants"
+    >
+      <h2 class="self-start">Fees</h2>
+      <p class="self-start">My fee is $130 per session.</p>
+      <p>
+        I offer a limited number of sliding scale slots to individuals for whom
+        finances pose a barrier to accessing therapy. If you are seeking an
+        adjusted fee, please bring this to my attention during our consultation
+        call.
+      </p>
+    </TextImageOverlap>
+    <!-- Where & How We Meet -->
+    <div>
+      <h1 class="font-semibold">Where &amp; How We Meet</h1>
       <p>
         Currently, I offer therapy over secure video platform. You will need a
         secure wifi-connection, a private space, and a video-enabled device to
         join sessions. I do not offer in-person services at this time.
       </p>
     </div>
-    <div class="insurance-block">
-      <h2>Insurance</h2>
+    <!-- Insurance -->
+    <div class="rounded bg-[var(--color-light-tan)] p-4">
+      <h1 class="font-semibold">Insurance</h1>
       <p>
         I am not in network with insurance providers. However, I can provide you
         with invoices (“superbills”) that you can use to seek reimbursement from
@@ -70,8 +65,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         some coverage/reimbursement using super bills.
       </p>
     </div>
-    <div class="expect-block">
-      <h2>What to Expect</h2>
+    <!-- What to Expect -->
+    <div>
+      <h1 class="font-semibold">What to Expect</h1>
       <p>
         In order for therapy to be effective, it’s incredibly important that you
         feel comfortable with your therapist; you have choice and agency in
@@ -94,15 +90,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         adjust pacing as growth and healing emerges.
       </p>
     </div>
-    <p>
-      <img
-        src="/images/flowers.png"
-        alt="Flowers"
-        class="rounded"
-        width="900"
-        height="600"
-        loading="lazy"
-      />
-    </p>
-  </section>
+    <img src="/images/flowers.png" alt="Flowers" />
+  </div>
 </BaseLayout>
