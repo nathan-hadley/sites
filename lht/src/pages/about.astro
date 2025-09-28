@@ -13,8 +13,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       title="Liz Hadley, MA, LMHCA"
       subtitle="I am a mother, partner, sister, daughter, aunt, and friend. I am a cisgender heterosexual White woman."
     />
-    <div class="grid items-start gap-8 md:grid-cols-2">
-      <div class="text-center">
+    <div class="grid items-start gap-8 md:grid-cols-3">
+      <div class="text-center md:col-span-1">
         <img
           src="/images/liz-portrait.jpg"
           alt="Liz portrait"
@@ -26,7 +26,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         </h3>
         <h4 class="text-neutral-600">— Annie Rogers</h4>
       </div>
-      <div class="prose prose-neutral max-w-none self-start">
+      <div class="prose prose-neutral max-w-none self-start md:col-span-2">
         <h2>How I work:</h2>
         <p>
           At the core of my therapeutic approach is my belief that we heal and
@@ -61,9 +61,15 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         </p>
       </div>
     </div>
-    <div class="grid items-start gap-8 md:grid-cols-2">
-      <img src="/images/buds.jpeg" alt="Buds" class="h-auto w-full rounded" />
-      <div class="right-col-2 prose prose-neutral max-w-none self-start">
+    <div class="grid items-start gap-8 md:grid-cols-3">
+      <img
+        src="/images/buds.jpeg"
+        alt="Buds"
+        class="aspect-[4/3] w-full object-cover [clip-path:ellipse(50%_50%_at_50%_50%)] md:col-span-1"
+      />
+      <div
+        class="right-col-2 prose prose-neutral max-w-none self-start md:col-span-2"
+      >
         <h2>Therapeutic Orientation:</h2>
         <p>
           My primary therapeutic approach is existential, humanistic,
@@ -78,8 +84,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         </p>
       </div>
     </div>
-    <div class="grid items-start gap-8 md:grid-cols-2">
-      <div class="prose prose-neutral max-w-none self-start">
+    <div class="grid items-start gap-8 md:grid-cols-3">
+      <div class="prose prose-neutral max-w-none self-start md:col-span-2">
         <h2>Professional Journey:</h2>
         <p>
           Throughout my life, a guiding compass has been my commitment to
@@ -115,7 +121,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           whom I will cross paths: I am honored, and so eager to know you.
         </p>
       </div>
-      <img src="/images/cairn.jpeg" alt="Cairn" class="h-auto w-full rounded" />
+      <img
+        src="/images/cairn.jpeg"
+        alt="Cairn"
+        class="aspect-[4/3] w-full object-cover [clip-path:ellipse(50%_50%_at_50%_50%)] md:col-span-1"
+      />
     </div>
   </div>
 </BaseLayout>
