@@ -28,3 +28,9 @@ body {
   --tw-prose-body: var(--color-font);
   --tw-prose-headings: var(--color-font);
 }
+
+@layer components {
+  .prose :where(p):not(:where([class~="not-prose"] *)) {
+    @apply text-lg;
+  }
+}

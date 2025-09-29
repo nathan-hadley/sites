@@ -1,5 +1,7 @@
 ---
 import NavLink from "./NavLink.astro";
+const isActive = (href: string) =>
+  Astro.url.pathname === href || Astro.url.pathname.startsWith(href + '/');
 ---
 
 <header
@@ -10,13 +12,13 @@ import NavLink from "./NavLink.astro";
   </div>
   <nav>
     <ul class="flex items-center gap-6 text-xl">
-      <li class="sm:hidden">
+      <li class={`sm:hidden ${isActive('/') ? 'underline underline-offset-8' : ''}`}>
         <NavLink href="/" label="Home" />
       </li>
-      <li><NavLink href="/about" label="About" /></li>
-      <li><NavLink href="/focus-areas" label="Focus Areas" /></li>
-      <li><NavLink href="/faq" label="FAQs" /></li>
-      <li><NavLink href="/resources" label="Resources" /></li>
+      <li class={isActive('/about') ? 'underline underline-offset-8' : ''}><NavLink href="/about" label="About" /></li>
+      <li class={isActive('/focus-areas') ? 'underline underline-offset-8' : ''}><NavLink href="/focus-areas" label="Focus Areas" /></li>
+      <li class={isActive('/faq') ? 'underline underline-offset-8' : ''}><NavLink href="/faq" label="FAQs" /></li>
+      <li class={isActive('/resources') ? 'underline underline-offset-8' : ''}><NavLink href="/resources" label="Resources" /></li>
     </ul>
   </nav>
   <div class="hidden sm:block">
