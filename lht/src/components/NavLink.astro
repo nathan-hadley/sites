@@ -9,6 +9,6 @@ const isActive = Astro.url.pathname === href;
 
 <a
   href={href}
-  class={`hover:opacity-80 ${isActive ? "font-semibold underline underline-offset-8" : ""}`}
+  class={`inline-block text-center sm:text-left hover:opacity-80 ${isActive ? "font-semibold underline underline-offset-8" : ""}`}
   >{label}</a
 >

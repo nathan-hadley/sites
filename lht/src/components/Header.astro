@@ -10,13 +10,13 @@ const isActive = (href: string) =>
   <div class="hidden sm:block sm:text-2xl">
     <a href="/" class="hover:opacity-80">Liz Hadley Therapy</a>
   </div>
-  <nav>
-    <ul class="flex items-center gap-6 text-xl">
+  <nav class="w-full sm:w-auto">
+    <ul class="mx-auto flex max-w-xs items-center justify-center gap-6 text-xl sm:mx-0 sm:max-w-none sm:justify-start">
       <li class={`sm:hidden ${isActive('/') ? 'underline underline-offset-8' : ''}`}>
         <NavLink href="/" label="Home" />
       </li>
       <li class={isActive('/about') ? 'underline underline-offset-8' : ''}><NavLink href="/about" label="About" /></li>
-      <li class={isActive('/focus-areas') ? 'underline underline-offset-8' : ''}><NavLink href="/focus-areas" label="Focus Areas" /></li>
+      <li class={isActive('/focus-areas') ? 'underline underline-offset-8 text-center' : ''}><NavLink href="/focus-areas" label="Focus Areas" /></li>
       <li class={isActive('/faq') ? 'underline underline-offset-8' : ''}><NavLink href="/faq" label="FAQs" /></li>
       <li class={isActive('/resources') ? 'underline underline-offset-8' : ''}><NavLink href="/resources" label="Resources" /></li>
     </ul>
